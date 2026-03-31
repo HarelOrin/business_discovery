@@ -1,0 +1,7 @@
+Score the following batch of business types. For each one, I've provided the record_id, business_type, definition (if available — when null, use your world knowledge of what this business type is), and source.
+
+BATCH:
+
+{batch_json}
+
+Return the scored JSON for all businesses in this batch.

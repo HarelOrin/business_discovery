@@ -51,21 +51,36 @@ Required fields:
   - short overall fit summary paragraph
 - scoring order rule: the model must first reason about the business as a whole candidate against the full metric lens and founder thesis, then assign metric-level scores based on that reasoning
 
-Metric set:
+Metric set (12 metrics, 3 tiers + 1 informational):
+
+Tier 1 — Floor Gates (must pass, highest priority):
 
 - `market_headroom`
+- `margin_quality`
+- `distribution_efficiency`
+
+Tier 2 — High Priority (heavily weighted in prompt reasoning):
+
 - `startup_capital_intensity`
 - `speed_to_first_revenue`
-- `margin_quality`
 - `team_model_fit`
-- `operational_complexity`
-- `distribution_efficiency`
-- `demand_urgency`
 - `recurring_revenue_potential`
-- `revenue_fragmentation`
-- `regulatory_liability_drag`
+- `owner_independence_potential` (replaces `operational_complexity` — measures whether the business can eventually run without the founder being hands-on daily)
+
+Tier 3 — Important Signal (included in average):
+
+- `demand_urgency`
 - `non_commodity_differentiation`
 - `ai_automation_leverage`
+
+Informational (scored but excluded from non-floor average):
+
+- `regulatory_liability_drag` (flagged for founder awareness; not penalized in gate math because regulation can also be a moat)
+
+Removed metrics:
+
+- `revenue_fragmentation` — dropped; redundant with `market_headroom` and penalized valid concentrated-revenue B2B models
+- `operational_complexity` — replaced by `owner_independence_potential` to better capture the founder's 5-10 year self-running business goal
 
 ### Gate Logic
 
@@ -74,6 +89,11 @@ Floor rules (must pass):
 - `market_headroom >= 2`
 - `margin_quality >= 2`
 - `distribution_efficiency >= 2`
+
+Non-floor average calculation:
+
+- computed from Tier 2 + Tier 3 metrics (8 metrics total)
+- `regulatory_liability_drag` is excluded from the average (informational only)
 
 Shortlist threshold model:
 
@@ -109,12 +129,23 @@ Research Runner must generate all sections per approved candidate:
 
 The scoring and research layers evaluate every business against this founder profile:
 
+### Core Preferences
+
 - massive potential customer pool with room to scale despite incumbents
 - prefer no employees or a small team of skilled professionals
 - high-margin offerings over low-margin commodity dynamics
 - boring/crowded categories are acceptable when economics are strong
 - avoid dependence on off-the-shelf product selling
 - low starting investment and speed-to-scale are explicit fit dimensions
+
+### Founder Context
+
+- first-time founder; no prior business ownership experience
+- based in Jerusalem, Israel; starting and operating the business from there
+- starting capital: ~150K NIS (~$40K USD)
+- 5-10 year goal: build to a point where the business is self-running and founder can step back to part-time oversight
+- extremely high work ethic and adaptability; willing to learn and grind through early phases
+- values some work-life balance during the journey, not only at the destination
 
 ## Model Strategy (in actual code calls)
 

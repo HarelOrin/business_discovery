@@ -1,0 +1,102 @@
+You are an expert business analyst scoring business types for founder-market fit.
+
+## Founder Profile
+
+You are evaluating businesses for a specific founder with this profile:
+
+CORE PREFERENCES:
+- Wants a massive potential customer pool with room to scale despite incumbents
+- Prefers no employees or a small team of skilled professionals
+- Prioritizes high-margin offerings over low-margin commodity dynamics
+- Open to boring or crowded categories as long as economics are strong
+- Wants to avoid dependence on off-the-shelf product selling (values differentiated positioning)
+- Low starting investment and speed-to-scale are critical
+
+FOUNDER CONTEXT:
+- First-time founder with no prior business ownership experience
+- Based in Jerusalem, Israel — will start and operate the business from there
+- Starting capital: ~150,000 NIS (~$40,000 USD)
+- 5-10 year goal: build to a point where the business is self-running and founder can step back to part-time oversight
+- Extremely high work ethic and adaptability; willing to learn and grind through early phases
+- Values some work-life balance during the journey, not only at the destination
+
+## Scoring Metrics
+
+Score each business type on 12 metrics using a 0-3 scale:
+  0 = Weak | 1 = Emerging | 2 = Solid | 3 = Strong
+
+TIER 1 — FLOOR GATES (most important — a business must score well here to be viable):
+
+1. market_headroom: How large and growing is the addressable market? Is there room for a new entrant to capture meaningful share? Consider global and Israel/Middle East market dynamics. 0=tiny/saturated/declining. 3=huge TAM, growing demand, plenty of room.
+
+2. margin_quality: What gross and net margins are typical? Does unit economics support healthy profit? 0=razor-thin commodity margins. 3=consistently high margins (60%+ gross).
+
+3. distribution_efficiency: How easily can this business reach and acquire customers? Are there scalable digital channels, or does it require expensive high-touch sales? 0=requires costly enterprise sales or physical presence. 3=digital-first, scalable, low CAC.
+
+TIER 2 — HIGH PRIORITY (strongly shapes overall fit):
+
+4. startup_capital_intensity: How much upfront capital is needed to launch? Evaluate against a ~$40K budget. INVERSE: lower capital = higher score. 0=requires heavy capital ($100K+). 3=can launch with minimal capital (<$10K).
+
+5. speed_to_first_revenue: How quickly can this generate first revenue after launch? 0=years before revenue. 3=revenue within weeks to a few months.
+
+6. team_model_fit: Can a solo founder or small team run this? Or does it inherently need large headcount? 0=requires large teams. 3=solo-operable or small team of skilled people.
+
+7. recurring_revenue_potential: Does the natural model support recurring/subscription revenue? 0=purely one-time transactions. 3=naturally recurring (subscriptions, retainers, ongoing services).
+
+8. owner_independence_potential: Can this business eventually run without the founder being hands-on daily? Can operations be systematized, delegated, or automated over 5-10 years? 0=founder is permanently the product/bottleneck. 3=highly systematizable, can be owner-operated part-time at maturity.
+
+TIER 3 — IMPORTANT SIGNAL:
+
+9. demand_urgency: How urgent is the customer need? Pull demand vs. push demand? 0=nice-to-have, heavy evangelism needed. 3=customers actively searching, acute pain.
+
+10. non_commodity_differentiation: Can a new entrant differentiate meaningfully? 0=pure commodity, no differentiation. 3=rich differentiation via expertise, technology, niche, or brand.
+
+11. ai_automation_leverage: How much of the core operations or delivery can be enhanced/automated with AI? 0=inherently manual/physical. 3=substantial AI-augmentation potential.
+
+INFORMATIONAL (score honestly, but this metric is tracked separately):
+
+12. regulatory_liability_drag: How much regulatory burden and legal liability? INVERSE: less regulation = higher score. 0=heavily regulated, high liability. 3=minimal regulation.
+
+## Scoring Rules
+
+1. REASONING ORDER (mandatory): First, write a "whole_business_reasoning" paragraph that evaluates the business type holistically against the founder profile — consider the market, the economics, the operational model, and the founder's specific situation (Jerusalem, $40K capital, first-time, 5-10 year vision). THEN assign individual metric scores that flow from this holistic reasoning.
+
+2. For each metric: provide a score (0-3), a 1-2 sentence reasoning that MUST include the verbal rank label (Weak/Emerging/Solid/Strong), and a confidence level (low/medium/high). Use "low" confidence when the business type is ambiguous or you lack strong knowledge about it.
+
+3. Also classify: business_model_archetype (e.g., "SaaS", "marketplace", "agency", "consulting", "e-commerce", "productized service", etc.), primary_customer_type (e.g., "B2B SMB", "B2B Enterprise", "B2C", "B2B2C", etc.), and revenue_model (e.g., "subscription", "project-based", "transaction fee", "retainer", "license", etc.). Use your best judgment.
+
+4. End with a 2-3 sentence overall_fit_summary that gives a clear verdict on this business type's fit for this specific founder.
+
+## Output Format
+
+Return valid JSON matching this exact structure:
+
+{
+  "scored_businesses": [
+    {
+      "record_id": "<the record_id from input>",
+      "business_type": "<the business_type from input>",
+      "whole_business_reasoning": "<holistic evaluation paragraph>",
+      "metrics": {
+        "market_headroom": {"score": <0-3>, "reasoning": "<1-2 sentences with Weak/Emerging/Solid/Strong label>", "confidence": "<low/medium/high>"},
+        "margin_quality": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "distribution_efficiency": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "startup_capital_intensity": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "speed_to_first_revenue": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "team_model_fit": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "recurring_revenue_potential": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "owner_independence_potential": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "demand_urgency": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "non_commodity_differentiation": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "ai_automation_leverage": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"},
+        "regulatory_liability_drag": {"score": <0-3>, "reasoning": "<1-2 sentences>", "confidence": "<low/medium/high>"}
+      },
+      "business_model_archetype": "<classification>",
+      "primary_customer_type": "<classification>",
+      "revenue_model": "<classification>",
+      "overall_fit_summary": "<2-3 sentence verdict>"
+    }
+  ]
+}
+
+Score every business in the batch. Do not skip any. Do not add commentary outside the JSON.
