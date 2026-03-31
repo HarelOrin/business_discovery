@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-31T16:03:56.408329+00:00",
+  "overall_pass": true,
+  "checks": {
+    "both_sources_present": {
+      "pass": true,
+      "detail": "Sources found: ['g2', 'naics']"
+    },
+    "row_counts_sane": {
+      "pass": true,
+      "detail": "NAICS: 2122, G2: 2209, Total: 4331"
+    },
+    "provenance_populated": {
+      "pass": true,
+      "detail": "Missing source_family: 0, Missing source_ref: 0, Missing ingested_at: 0"
+    },
+    "no_null_required_fields": {
+      "pass": true,
+      "detail": "Null counts on required fields: {'record_id': 0, 'business_type': 0, 'source_family': 0, 'source_ref': 0}"
+    },
+    "unique_record_ids": {
+      "pass": true,
+      "detail": "Total: 4331, Unique: 4331, Dupes: 0"
+    }
+  }
+}

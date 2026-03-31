@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-03-31T16:03:56.403322+00:00",
+  "sources": {
+    "naics": {
+      "source_family": "naics",
+      "source_name": "2022 NAICS (North American Industry Classification System)",
+      "source_authority": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/naics/",
+      "source_files": [
+        "2-6_digit_2022_Codes.xlsx",
+        "2022_NAICS_Descriptions.xlsx"
+      ],
+      "record_count": 2122,
+      "has_descriptions": true,
+      "hierarchy_levels": "2-digit (sector) through 6-digit (national industry)",
+      "notes": "Official machine-readable classification. One-time download, stored locally."
+    },
+    "g2": {
+      "source_family": "g2",
+      "source_name": "G2 Software Category Hierarchy",
+      "source_authority": "G2.com",
+      "source_url": "https://www.g2.com/categories?view_hierarchy=true",
+      "source_files": [
+        "categories_hierarchy.html"
+      ],
+      "record_count": 2209,
+      "has_descriptions": false,
+      "hierarchy_levels": "top-category -> subcategory (up to 4 levels deep)",
+      "notes": "Deterministic HTML scrape of hierarchy view. Descriptions unavailable (API requires paid access). Category names are self-descriptive; AI world knowledge can supplement."
+    }
+  },
+  "combined": {
+    "total_records": 4331,
+    "sources_present": [
+      "naics",
+      "g2"
+    ]
+  }
+}
