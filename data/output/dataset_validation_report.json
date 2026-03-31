@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-03-31T16:34:00.903514+00:00",
+  "overall_pass": true,
+  "checks": [
+    {
+      "check": "active_record_count",
+      "threshold": ">= 700",
+      "actual": 3606,
+      "pass": true
+    },
+    {
+      "check": "required_fields",
+      "missing": 0,
+      "pass": true
+    },
+    {
+      "check": "non_nullable",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "check": "provenance",
+      "missing": 0,
+      "pass": true
+    },
+    {
+      "check": "conflict_queue",
+      "limit": 540,
+      "actual": 492,
+      "pass": true
+    },
+    {
+      "check": "schema_contract",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "raw_input_records": 4331,
+    "canonical_active_records": 3606,
+    "from_naics": 1427,
+    "from_g2": 2177,
+    "cross_source": 2,
+    "with_definition": 1429,
+    "without_definition": 2177,
+    "tier1_merges": 695,
+    "tier2_merges": 30,
+    "tier3_candidates": 492,
+    "merge_log_entries": 4331
+  },
+  "sample_records": [
+    {
+      "record_id": "canon_0001",
+      "business_type": ".NET Developers",
+      "definition": null,
+      "business_model_archetype": "unclassified",
+      "primary_customer_type": "unclassified",
+      "revenue_model": "unclassified",
+      "source_family": "g2",
+      "source_ref": "g2.com/categories/net-developers",
+      "normalization_status": "normalized",
+      "record_status": "active"
+    },
+    {
+      "record_id": "canon_0002",
+      "business_type": ".NET Integrated Development Environments (IDE)",
+      "definition": null,
+      "business_model_archetype": "unclassified",
+      "primary_customer_type": "unclassified",
+      "revenue_model": "unclassified",
+      "source_family": "g2",
+      "source_ref": "g2.com/categories/net-integrated-development-environments-ide",
+      "normalization_status": "normalized",
+      "record_status": "active"
+    },
+    {
+      "record_id": "canon_0003",
+      "business_type": "360 Feedback Software",
+      "definition": null,
+      "business_model_archetype": "unclassified",
+      "primary_customer_type": "unclassified",
+      "revenue_model": "unclassified",
+      "source_family": "g2",
+      "source_ref": "g2.com/categories/360-feedback-software",
+      "normalization_status": "normalized",
+      "record_status": "active"
+    },
+    {
+      "record_id": "canon_0004",
+      "business_type": "3D Design Software",
+      "definition": null,
+      "business_model_archetype": "unclassified",
+      "primary_customer_type": "unclassified",
+      "revenue_model": "unclassified",
+      "source_family": "g2",
+      "source_ref": "g2.com/categories/3d-design",
+      "normalization_status": "normalized",
+      "record_status": "active"
+    },
+    {
+      "record_id": "canon_0005",
+      "business_type": "3D Modeling Software",
+      "definition": null,
+      "business_model_archetype": "unclassified",
+      "primary_customer_type": "unclassified",
+      "revenue_model": "unclassified",
+      "source_family": "g2",
+      "source_ref": "g2.com/categories/3d-modeling",
+      "normalization_status": "normalized",
+      "record_status": "active"
+    }
+  ]
+}

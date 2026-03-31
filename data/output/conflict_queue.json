@@ -1,0 +1,3938 @@
+[
+  {
+    "canonical_a_id": "canon_1855",
+    "canonical_b_id": "canon_1856",
+    "name_a": "Managed IoT Services Providers",
+    "name_b": "Managed IT Services Providers",
+    "similarity_score": 0.9831,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2714",
+    "canonical_b_id": "canon_2715",
+    "name_a": "Promoters of Performing Arts, Sports, and Similar Events with Facilities",
+    "name_b": "Promoters of Performing Arts, Sports, and Similar Events without Facilities",
+    "similarity_score": 0.9796,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2254",
+    "canonical_b_id": "canon_2255",
+    "name_a": "Other Basic Inorganic Chemical Manufacturing",
+    "name_b": "Other Basic Organic Chemical Manufacturing",
+    "similarity_score": 0.9767,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2366",
+    "canonical_b_id": "canon_2368",
+    "name_a": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+    "name_b": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "similarity_score": 0.973,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0749",
+    "canonical_b_id": "canon_0752",
+    "name_a": "Conversation Intelligence Software",
+    "name_b": "Conversational Intelligence Software",
+    "similarity_score": 0.9714,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2929",
+    "canonical_b_id": "canon_2930",
+    "name_a": "Sage 50 Resellers",
+    "name_b": "Sage 500 Resellers",
+    "similarity_score": 0.9714,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1972",
+    "canonical_b_id": "canon_1976",
+    "name_a": "Miscellaneous Durable Goods Merchant Wholesalers",
+    "name_b": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "similarity_score": 0.9697,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0823",
+    "canonical_b_id": "canon_2105",
+    "name_a": "Current-Carrying Wiring Device Manufacturing",
+    "name_b": "Noncurrent-Carrying Wiring Device Manufacturing",
+    "similarity_score": 0.967,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0155",
+    "canonical_b_id": "canon_2297",
+    "name_a": "All Other Electrical Equipment and Component Manufacturing",
+    "name_b": "Other Electrical Equipment and Component Manufacturing",
+    "similarity_score": 0.9643,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0187",
+    "canonical_b_id": "canon_2404",
+    "name_a": "All Other Professional, Scientific, and Technical Services",
+    "name_b": "Other Professional, Scientific, and Technical Services",
+    "similarity_score": 0.9643,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3231",
+    "canonical_b_id": "canon_3241",
+    "name_a": "Support Activities for Air Transportation",
+    "name_b": "Support Activities for Rail Transportation",
+    "similarity_score": 0.9639,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0151",
+    "canonical_b_id": "canon_2265",
+    "name_a": "All Other Chemical Product and Preparation Manufacturing",
+    "name_b": "Other Chemical Product and Preparation Manufacturing",
+    "similarity_score": 0.963,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0197",
+    "canonical_b_id": "canon_2446",
+    "name_a": "All Other Transit and Ground Passenger Transportation",
+    "name_b": "Other Transit and Ground Passenger Transportation",
+    "similarity_score": 0.9608,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0199",
+    "canonical_b_id": "canon_2450",
+    "name_a": "All Other Travel Arrangement and Reservation Services",
+    "name_b": "Other Travel Arrangement and Reservation Services",
+    "similarity_score": 0.9608,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0184",
+    "canonical_b_id": "canon_2394",
+    "name_a": "All Other Petroleum and Coal Products Manufacturing",
+    "name_b": "Other Petroleum and Coal Products Manufacturing",
+    "similarity_score": 0.9592,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0181",
+    "canonical_b_id": "canon_2381",
+    "name_a": "All Other Nonmetallic Mineral Product Manufacturing",
+    "name_b": "Other Nonmetallic Mineral Product Manufacturing",
+    "similarity_score": 0.9592,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1939",
+    "canonical_b_id": "canon_1940",
+    "name_a": "Merchant Wholesalers, Durable Goods",
+    "name_b": "Merchant Wholesalers, Nondurable Goods",
+    "similarity_score": 0.9589,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_2441",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Other Support Activities for Water Transportation",
+    "similarity_score": 0.9583,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0631",
+    "canonical_b_id": "canon_2270",
+    "name_a": "Commercial and Industrial Machinery and Equipment Rental and Leasing",
+    "name_b": "Other Commercial and Industrial Machinery and Equipment Rental and Leasing",
+    "similarity_score": 0.9577,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0160",
+    "canonical_b_id": "canon_2319",
+    "name_a": "All Other General Purpose Machinery Manufacturing",
+    "name_b": "Other General Purpose Machinery Manufacturing",
+    "similarity_score": 0.9574,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0156",
+    "canonical_b_id": "canon_2303",
+    "name_a": "All Other Fabricated Metal Product Manufacturing",
+    "name_b": "Other Fabricated Metal Product Manufacturing",
+    "similarity_score": 0.9565,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0198",
+    "canonical_b_id": "canon_2448",
+    "name_a": "All Other Transportation Equipment Manufacturing",
+    "name_b": "Other Transportation Equipment Manufacturing",
+    "similarity_score": 0.9565,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2120",
+    "canonical_b_id": "canon_2844",
+    "name_a": "Nonresidential Building Construction",
+    "name_b": "Residential Building Construction",
+    "similarity_score": 0.9565,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0193",
+    "canonical_b_id": "canon_2440",
+    "name_a": "All Other Support Activities for Transportation",
+    "name_b": "Other Support Activities for Transportation",
+    "similarity_score": 0.9556,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_2440",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Other Support Activities for Transportation",
+    "similarity_score": 0.9556,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0153",
+    "canonical_b_id": "canon_2283",
+    "name_a": "All Other Converted Paper Product Manufacturing",
+    "name_b": "Other Converted Paper Product Manufacturing",
+    "similarity_score": 0.9556,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0938",
+    "canonical_b_id": "canon_2106",
+    "name_a": "Depository Credit Intermediation",
+    "name_b": "Nondepository Credit Intermediation",
+    "similarity_score": 0.9552,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0149",
+    "canonical_b_id": "canon_2255",
+    "name_a": "All Other Basic Organic Chemical Manufacturing",
+    "name_b": "Other Basic Organic Chemical Manufacturing",
+    "similarity_score": 0.9545,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2975",
+    "canonical_b_id": "canon_2976",
+    "name_a": "Scenic and Sightseeing Transportation, Other",
+    "name_b": "Scenic and Sightseeing Transportation, Water",
+    "similarity_score": 0.9545,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0146",
+    "canonical_b_id": "canon_2245",
+    "name_a": "All Other Amusement and Recreation Industries",
+    "name_b": "Other Amusement and Recreation Industries",
+    "similarity_score": 0.9535,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1628",
+    "canonical_b_id": "canon_2585",
+    "name_a": "Integrated Development Environments (IDE)",
+    "name_b": "PHP Integrated Development Environments (IDE)",
+    "similarity_score": 0.9535,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0986",
+    "canonical_b_id": "canon_2294",
+    "name_a": "Direct Insurance (except Life, Health, and Medical) Carriers",
+    "name_b": "Other Direct Insurance (except Life, Health, and Medical) Carriers",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3241",
+    "canonical_b_id": "canon_3242",
+    "name_a": "Support Activities for Rail Transportation",
+    "name_b": "Support Activities for Road Transportation",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0162",
+    "canonical_b_id": "canon_2326",
+    "name_a": "All Other Health and Personal Care Retailers",
+    "name_b": "Other Health and Personal Care Retailers",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0104",
+    "canonical_b_id": "canon_0945",
+    "name_a": "AI Development Services Providers",
+    "name_b": "Development Services Providers",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3231",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Support Activities for Air Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1529",
+    "canonical_b_id": "canon_2647",
+    "name_a": "HR Analytics Software",
+    "name_b": "PR Analytics Software",
+    "similarity_score": 0.9524,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0148",
+    "canonical_b_id": "canon_2251",
+    "name_a": "All Other Automotive Repair and Maintenance",
+    "name_b": "Other Automotive Repair and Maintenance",
+    "similarity_score": 0.9512,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2121",
+    "canonical_b_id": "canon_2849",
+    "name_a": "Nonresidential Property Managers",
+    "name_b": "Residential Property Managers",
+    "similarity_score": 0.9508,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3028",
+    "canonical_b_id": "canon_3034",
+    "name_a": "Server Virtualization Software",
+    "name_b": "Service Virtualization Software",
+    "similarity_score": 0.9508,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1324",
+    "canonical_b_id": "canon_2314",
+    "name_a": "Foundation, Structure, and Building Exterior Contractors",
+    "name_b": "Other Foundation, Structure, and Building Exterior Contractors",
+    "similarity_score": 0.9492,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2122",
+    "canonical_b_id": "canon_2977",
+    "name_a": "Nonscheduled Air Transportation",
+    "name_b": "Scheduled Air Transportation",
+    "similarity_score": 0.9492,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1832",
+    "canonical_b_id": "canon_2098",
+    "name_a": "Low-Code Development Platforms",
+    "name_b": "No-Code Development Platforms",
+    "similarity_score": 0.9492,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0145",
+    "canonical_b_id": "canon_2244",
+    "name_a": "All Other Ambulatory Health Care Services",
+    "name_b": "Other Ambulatory Health Care Services",
+    "similarity_score": 0.9487,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0157",
+    "canonical_b_id": "canon_2308",
+    "name_a": "All Other Financial Investment Activities",
+    "name_b": "Other Financial Investment Activities",
+    "similarity_score": 0.9487,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3231",
+    "canonical_b_id": "canon_3243",
+    "name_a": "Support Activities for Air Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.9487,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2155",
+    "canonical_b_id": "canon_2165",
+    "name_a": "Offices of All Other Health Practitioners",
+    "name_b": "Offices of Other Health Practitioners",
+    "similarity_score": 0.9487,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_2439",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Other Support Activities for Road Transportation",
+    "similarity_score": 0.9474,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1673",
+    "canonical_b_id": "canon_2335",
+    "name_a": "IoT Implementation Services Providers",
+    "name_b": "Other Implementation Services Providers",
+    "similarity_score": 0.9474,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0186",
+    "canonical_b_id": "canon_2397",
+    "name_a": "All Other Plastics Product Manufacturing",
+    "name_b": "Other Plastics Product Manufacturing",
+    "similarity_score": 0.9474,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1621",
+    "canonical_b_id": "canon_2813",
+    "name_a": "Insurance Carriers",
+    "name_b": "Reinsurance Carriers",
+    "similarity_score": 0.9474,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2585",
+    "canonical_b_id": "canon_2752",
+    "name_a": "PHP Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.9462,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1248",
+    "canonical_b_id": "canon_1249",
+    "name_a": "Financial Analysis Software",
+    "name_b": "Financial Analytics Software",
+    "similarity_score": 0.9455,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2439",
+    "canonical_b_id": "canon_2440",
+    "name_a": "Other Support Activities for Road Transportation",
+    "name_b": "Other Support Activities for Transportation",
+    "similarity_score": 0.9451,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2927",
+    "canonical_b_id": "canon_2930",
+    "name_a": "Sage 100 Resellers",
+    "name_b": "Sage 500 Resellers",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0165",
+    "canonical_b_id": "canon_2339",
+    "name_a": "All Other Insurance Related Activities",
+    "name_b": "Other Insurance Related Activities",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1976",
+    "canonical_b_id": "canon_2368",
+    "name_a": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "name_b": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2391",
+    "canonical_b_id": "canon_2541",
+    "name_a": "Other Personal and Household Goods Repair and Maintenance",
+    "name_b": "Personal and Household Goods Repair and Maintenance",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2927",
+    "canonical_b_id": "canon_2928",
+    "name_a": "Sage 100 Resellers",
+    "name_b": "Sage 300 Resellers",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1601",
+    "canonical_b_id": "canon_1602",
+    "name_a": "Infor XA Resellers",
+    "name_b": "Infor Xi Resellers",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2928",
+    "canonical_b_id": "canon_2930",
+    "name_a": "Sage 300 Resellers",
+    "name_b": "Sage 500 Resellers",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0189",
+    "canonical_b_id": "canon_2415",
+    "name_a": "All Other Rubber Product Manufacturing",
+    "name_b": "Other Rubber Product Manufacturing",
+    "similarity_score": 0.9444,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0291",
+    "canonical_b_id": "canon_1688",
+    "name_a": "Asset Management  Software",
+    "name_b": "IT Asset Management Software",
+    "similarity_score": 0.9434,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0375",
+    "canonical_b_id": "canon_3569",
+    "name_a": "Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "name_b": "Wine and Distilled Alcoholic Beverage Merchant Wholesalers",
+    "similarity_score": 0.9431,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1562",
+    "canonical_b_id": "canon_1673",
+    "name_a": "Implementation Services Providers",
+    "name_b": "IoT Implementation Services Providers",
+    "similarity_score": 0.9429,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0192",
+    "canonical_b_id": "canon_2433",
+    "name_a": "All Other Specialty Trade Contractors",
+    "name_b": "Other Specialty Trade Contractors",
+    "similarity_score": 0.9429,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0174",
+    "canonical_b_id": "canon_2367",
+    "name_a": "All Other Miscellaneous Manufacturing",
+    "name_b": "Other Miscellaneous Manufacturing",
+    "similarity_score": 0.9429,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1628",
+    "canonical_b_id": "canon_1705",
+    "name_a": "Integrated Development Environments (IDE)",
+    "name_b": "Java Integrated Development Environments (IDE)",
+    "similarity_score": 0.9425,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_1628",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "Integrated Development Environments (IDE)",
+    "similarity_score": 0.9425,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0532",
+    "canonical_b_id": "canon_2264",
+    "name_a": "Chemical and Allied Products Merchant Wholesalers",
+    "name_b": "Other Chemical and Allied Products Merchant Wholesalers",
+    "similarity_score": 0.9423,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1972",
+    "canonical_b_id": "canon_2366",
+    "name_a": "Miscellaneous Durable Goods Merchant Wholesalers",
+    "name_b": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+    "similarity_score": 0.9412,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0202",
+    "canonical_b_id": "canon_2463",
+    "name_a": "All Other Wood Product Manufacturing",
+    "name_b": "Other Wood Product Manufacturing",
+    "similarity_score": 0.9412,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2404",
+    "canonical_b_id": "canon_2705",
+    "name_a": "Other Professional, Scientific, and Technical Services",
+    "name_b": "Professional, Scientific, and Technical Services",
+    "similarity_score": 0.9412,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1625",
+    "canonical_b_id": "canon_1789",
+    "name_a": "Insurance Policy Administration Systems",
+    "name_b": "Life Insurance Policy Administration Systems",
+    "similarity_score": 0.9398,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3231",
+    "canonical_b_id": "canon_3242",
+    "name_a": "Support Activities for Air Transportation",
+    "name_b": "Support Activities for Road Transportation",
+    "similarity_score": 0.9398,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0150",
+    "canonical_b_id": "canon_2261",
+    "name_a": "All Other Business Support Services",
+    "name_b": "Other Business Support Services",
+    "similarity_score": 0.9394,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1233",
+    "canonical_b_id": "canon_2113",
+    "name_a": "Ferrous Metal Foundries",
+    "name_b": "Nonferrous Metal Foundries",
+    "similarity_score": 0.9388,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1225",
+    "canonical_b_id": "canon_2305",
+    "name_a": "Farm Product Raw Material Merchant Wholesalers",
+    "name_b": "Other Farm Product Raw Material Merchant Wholesalers",
+    "similarity_score": 0.9388,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1676",
+    "canonical_b_id": "canon_2420",
+    "name_a": "IoT Security Services Providers",
+    "name_b": "Other Security Services Providers",
+    "similarity_score": 0.9375,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0045",
+    "canonical_b_id": "canon_0046",
+    "name_a": "Acumatica Consulting Providers",
+    "name_b": "Acumatica ERP Consulting Providers",
+    "similarity_score": 0.9375,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0191",
+    "canonical_b_id": "canon_2431",
+    "name_a": "All Other Specialty Food Retailers",
+    "name_b": "Other Specialty Food Retailers",
+    "similarity_score": 0.9375,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3241",
+    "canonical_b_id": "canon_3243",
+    "name_a": "Support Activities for Rail Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.9367,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3242",
+    "canonical_b_id": "canon_3243",
+    "name_a": "Support Activities for Road Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.9367,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0172",
+    "canonical_b_id": "canon_0174",
+    "name_a": "All Other Miscellaneous Food Manufacturing",
+    "name_b": "All Other Miscellaneous Manufacturing",
+    "similarity_score": 0.9367,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0017",
+    "canonical_b_id": "canon_0497",
+    "name_a": "ACA Compliance Software",
+    "name_b": "Call Compliance Software",
+    "similarity_score": 0.9362,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1720",
+    "canonical_b_id": "canon_2347",
+    "name_a": "Justice, Public Order, and Safety Activities",
+    "name_b": "Other Justice, Public Order, and Safety Activities",
+    "similarity_score": 0.9362,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0128",
+    "canonical_b_id": "canon_3119",
+    "name_a": "AI Software Testing Tools",
+    "name_b": "Software Testing Tools",
+    "similarity_score": 0.9362,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0176",
+    "canonical_b_id": "canon_2369",
+    "name_a": "All Other Miscellaneous Retailers",
+    "name_b": "Other Miscellaneous Retailers",
+    "similarity_score": 0.9355,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0190",
+    "canonical_b_id": "canon_2418",
+    "name_a": "All Other Schools and Instruction",
+    "name_b": "Other Schools and Instruction",
+    "similarity_score": 0.9355,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0185",
+    "canonical_b_id": "canon_2396",
+    "name_a": "All Other Pipeline Transportation",
+    "name_b": "Other Pipeline Transportation",
+    "similarity_score": 0.9355,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1652",
+    "canonical_b_id": "canon_1731",
+    "name_a": "Inventory Management Software",
+    "name_b": "Lab Inventory Management Software",
+    "similarity_score": 0.9355,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0182",
+    "canonical_b_id": "canon_2387",
+    "name_a": "All Other Outpatient Care Centers",
+    "name_b": "Other Outpatient Care Centers",
+    "similarity_score": 0.9355,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2446",
+    "canonical_b_id": "canon_3361",
+    "name_a": "Other Transit and Ground Passenger Transportation",
+    "name_b": "Transit and Ground Passenger Transportation",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2450",
+    "canonical_b_id": "canon_3372",
+    "name_a": "Other Travel Arrangement and Reservation Services",
+    "name_b": "Travel Arrangement and Reservation Services",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0042",
+    "canonical_b_id": "canon_2238",
+    "name_a": "Activities Related to Credit Intermediation",
+    "name_b": "Other Activities Related to Credit Intermediation",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2440",
+    "canonical_b_id": "canon_2441",
+    "name_a": "Other Support Activities for Transportation",
+    "name_b": "Other Support Activities for Water Transportation",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2497",
+    "canonical_b_id": "canon_2512",
+    "name_a": "Partner Relationship Management (PRM) Software",
+    "name_b": "Patient Relationship Management (PRM) Software",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2341",
+    "canonical_b_id": "canon_2585",
+    "name_a": "Other Integrated Development Environments (IDE)",
+    "name_b": "PHP Integrated Development Environments (IDE)",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2441",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Other Support Activities for Water Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.9348,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1529",
+    "canonical_b_id": "canon_2246",
+    "name_a": "HR Analytics Software",
+    "name_b": "Other Analytics Software",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3237",
+    "canonical_b_id": "canon_3240",
+    "name_a": "Support Activities for Mining",
+    "name_b": "Support Activities for Printing",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0200",
+    "canonical_b_id": "canon_2452",
+    "name_a": "All Other Traveler Accommodation",
+    "name_b": "Other Traveler Accommodation",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0149",
+    "canonical_b_id": "canon_2254",
+    "name_a": "All Other Basic Organic Chemical Manufacturing",
+    "name_b": "Other Basic Inorganic Chemical Manufacturing",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1856",
+    "canonical_b_id": "canon_1862",
+    "name_a": "Managed IT Services Providers",
+    "name_b": "Managed SIEM Services Providers",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2439",
+    "canonical_b_id": "canon_3242",
+    "name_a": "Other Support Activities for Road Transportation",
+    "name_b": "Support Activities for Road Transportation",
+    "similarity_score": 0.9333,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1437",
+    "canonical_b_id": "canon_2323",
+    "name_a": "Grocery and Related Product Merchant Wholesalers",
+    "name_b": "Other Grocery and Related Products Merchant Wholesalers",
+    "similarity_score": 0.932,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_3231",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Support Activities for Air Transportation",
+    "similarity_score": 0.9318,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1628",
+    "canonical_b_id": "canon_2341",
+    "name_a": "Integrated Development Environments (IDE)",
+    "name_b": "Other Integrated Development Environments (IDE)",
+    "similarity_score": 0.9318,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0487",
+    "canonical_b_id": "canon_1628",
+    "name_a": "C/C++ Integrated Development Environments (IDE)",
+    "name_b": "Integrated Development Environments (IDE)",
+    "similarity_score": 0.9318,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2115",
+    "canonical_b_id": "canon_2381",
+    "name_a": "Nonmetallic Mineral Product Manufacturing",
+    "name_b": "Other Nonmetallic Mineral Product Manufacturing",
+    "similarity_score": 0.9318,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2394",
+    "canonical_b_id": "canon_2556",
+    "name_a": "Other Petroleum and Coal Products Manufacturing",
+    "name_b": "Petroleum and Coal Products Manufacturing",
+    "similarity_score": 0.9318,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0196",
+    "canonical_b_id": "canon_2445",
+    "name_a": "All Other Textile Product Mills",
+    "name_b": "Other Textile Product Mills",
+    "similarity_score": 0.931,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0152",
+    "canonical_b_id": "canon_2279",
+    "name_a": "All Other Consumer Goods Rental",
+    "name_b": "Other Consumer Goods Rental",
+    "similarity_score": 0.931,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2032",
+    "canonical_b_id": "canon_2034",
+    "name_a": "Motorcycle, ATV, and All Other Motor Vehicle Dealers",
+    "name_b": "Motorcycle, Boat, and Other Motor Vehicle Dealers",
+    "similarity_score": 0.9307,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1062",
+    "canonical_b_id": "canon_1065",
+    "name_a": "Education ERP Software",
+    "name_b": "Education HR Software",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1489",
+    "canonical_b_id": "canon_2330",
+    "name_a": "Heavy and Civil Engineering Construction",
+    "name_b": "Other Heavy and Civil Engineering Construction",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1765",
+    "canonical_b_id": "canon_2351",
+    "name_a": "Leather and Allied Product Manufacturing",
+    "name_b": "Other Leather and Allied Product Manufacturing",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0115",
+    "canonical_b_id": "canon_2128",
+    "name_a": "AI Note-Taking Software",
+    "name_b": "Note-Taking Software",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2114",
+    "canonical_b_id": "canon_2380",
+    "name_a": "Nonmetallic Mineral Mining and Quarrying",
+    "name_b": "Other Nonmetallic Mineral Mining and Quarrying",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0474",
+    "canonical_b_id": "canon_0484",
+    "name_a": "Business Plan Software",
+    "name_b": "Business VPN Software",
+    "similarity_score": 0.9302,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3530",
+    "canonical_b_id": "canon_3546",
+    "name_a": "Web Accessibility Software",
+    "name_b": "Website Accessibility Software",
+    "similarity_score": 0.9286,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2439",
+    "canonical_b_id": "canon_2441",
+    "name_a": "Other Support Activities for Road Transportation",
+    "name_b": "Other Support Activities for Water Transportation",
+    "similarity_score": 0.9278,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3233",
+    "canonical_b_id": "canon_3236",
+    "name_a": "Support Activities for Coal Mining",
+    "name_b": "Support Activities for Metal Mining",
+    "similarity_score": 0.9275,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0691",
+    "canonical_b_id": "canon_0693",
+    "name_a": "Construction Loan Management Software",
+    "name_b": "Construction Management Software",
+    "similarity_score": 0.9275,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0935",
+    "canonical_b_id": "canon_1773",
+    "name_a": "Dental Practice Management Software",
+    "name_b": "Legal Practice Management Software",
+    "similarity_score": 0.9275,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2448",
+    "canonical_b_id": "canon_3366",
+    "name_a": "Other Transportation Equipment Manufacturing",
+    "name_b": "Transportation Equipment Manufacturing",
+    "similarity_score": 0.9268,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0644",
+    "canonical_b_id": "canon_2273",
+    "name_a": "Communications Equipment Manufacturing",
+    "name_b": "Other Communications Equipment Manufacturing",
+    "similarity_score": 0.9268,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1212",
+    "canonical_b_id": "canon_2303",
+    "name_a": "Fabricated Metal Product Manufacturing",
+    "name_b": "Other Fabricated Metal Product Manufacturing",
+    "similarity_score": 0.9268,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0118",
+    "canonical_b_id": "canon_2795",
+    "name_a": "AI Recruiting Software",
+    "name_b": "Recruiting Software",
+    "similarity_score": 0.9268,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2432",
+    "canonical_b_id": "canon_3149",
+    "name_a": "Other Specialty Practice Management Software",
+    "name_b": "Specialty Practice Management Software",
+    "similarity_score": 0.9268,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0985",
+    "canonical_b_id": "canon_0988",
+    "name_a": "Direct Health and Medical Insurance Carriers",
+    "name_b": "Direct Life, Health, and Medical Insurance Carriers",
+    "similarity_score": 0.9263,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2341",
+    "canonical_b_id": "canon_2752",
+    "name_a": "Other Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.9263,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1518",
+    "canonical_b_id": "canon_2412",
+    "name_a": "Hotel Reservations Software",
+    "name_b": "Other Reservations Software",
+    "similarity_score": 0.9259,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3574",
+    "canonical_b_id": "canon_3575",
+    "name_a": "Wired and Wireless Telecommunications (except Satellite)",
+    "name_b": "Wired and Wireless Telecommunications Carriers (except Satellite)",
+    "similarity_score": 0.9256,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1392",
+    "canonical_b_id": "canon_2296",
+    "name_a": "Geothermal Electric Power Generation",
+    "name_b": "Other Electric Power Generation",
+    "similarity_score": 0.9254,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0935",
+    "canonical_b_id": "canon_3273",
+    "name_a": "Dental Practice Management Software",
+    "name_b": "Tax Practice Management Software",
+    "similarity_score": 0.9254,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0757",
+    "canonical_b_id": "canon_2283",
+    "name_a": "Converted Paper Product Manufacturing",
+    "name_b": "Other Converted Paper Product Manufacturing",
+    "similarity_score": 0.925,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3243",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Support Activities for Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.925,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2973",
+    "canonical_b_id": "canon_2974",
+    "name_a": "Scenic and Sightseeing Transportation",
+    "name_b": "Scenic and Sightseeing Transportation, Land",
+    "similarity_score": 0.925,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2440",
+    "canonical_b_id": "canon_3243",
+    "name_a": "Other Support Activities for Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.925,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_2341",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "Other Integrated Development Environments (IDE)",
+    "similarity_score": 0.9247,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1252",
+    "canonical_b_id": "canon_1262",
+    "name_a": "Financial Consulting Providers",
+    "name_b": "FinancialForce Consulting Providers",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1705",
+    "canonical_b_id": "canon_2585",
+    "name_a": "Java Integrated Development Environments (IDE)",
+    "name_b": "PHP Integrated Development Environments (IDE)",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0742",
+    "canonical_b_id": "canon_0744",
+    "name_a": "Contractor Management Software",
+    "name_b": "Contractor Risk Management Software",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0158",
+    "canonical_b_id": "canon_2312",
+    "name_a": "All Other Food Manufacturing",
+    "name_b": "Other Food Manufacturing",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_2585",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "PHP Integrated Development Environments (IDE)",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1065",
+    "canonical_b_id": "canon_1066",
+    "name_a": "Education HR Software",
+    "name_b": "Education Software",
+    "similarity_score": 0.9231,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2090",
+    "canonical_b_id": "canon_2091",
+    "name_a": "New Multifamily Housing Construction (except For-Sale Builders)",
+    "name_b": "New Single-Family Housing Construction (except For-Sale Builders)",
+    "similarity_score": 0.9219,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1628",
+    "canonical_b_id": "canon_2752",
+    "name_a": "Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.9213,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2423",
+    "canonical_b_id": "canon_3038",
+    "name_a": "Other Services to Buildings and Dwellings",
+    "name_b": "Services to Buildings and Dwellings",
+    "similarity_score": 0.9211,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2011",
+    "canonical_b_id": "canon_2372",
+    "name_a": "Motion Picture and Video Industries",
+    "name_b": "Other Motion Picture and Video Industries",
+    "similarity_score": 0.9211,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2106",
+    "canonical_b_id": "canon_2377",
+    "name_a": "Nondepository Credit Intermediation",
+    "name_b": "Other Nondepository Credit Intermediation",
+    "similarity_score": 0.9211,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0896",
+    "canonical_b_id": "canon_3512",
+    "name_a": "Data Warehouse Automation Software",
+    "name_b": "Warehouse Automation Software",
+    "similarity_score": 0.9206,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0890",
+    "canonical_b_id": "canon_1676",
+    "name_a": "Data Security Services Providers",
+    "name_b": "IoT Security Services Providers",
+    "similarity_score": 0.9206,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3233",
+    "canonical_b_id": "canon_3237",
+    "name_a": "Support Activities for Coal Mining",
+    "name_b": "Support Activities for Mining",
+    "similarity_score": 0.9206,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2205",
+    "canonical_b_id": "canon_2207",
+    "name_a": "Online Proctoring Software",
+    "name_b": "Online Proofing Software",
+    "similarity_score": 0.92,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2947",
+    "canonical_b_id": "canon_2948",
+    "name_a": "Sales Enablement Software",
+    "name_b": "Sales Engagement Software",
+    "similarity_score": 0.92,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0928",
+    "canonical_b_id": "canon_1754",
+    "name_a": "Demand Generation Software",
+    "name_b": "Lead Generation Software",
+    "similarity_score": 0.92,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0147",
+    "canonical_b_id": "canon_2248",
+    "name_a": "All Other Animal Production",
+    "name_b": "Other Animal Production",
+    "similarity_score": 0.92,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0183",
+    "canonical_b_id": "canon_2393",
+    "name_a": "All Other Personal Services",
+    "name_b": "Other Personal Services",
+    "similarity_score": 0.92,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2974",
+    "canonical_b_id": "canon_2976",
+    "name_a": "Scenic and Sightseeing Transportation, Land",
+    "name_b": "Scenic and Sightseeing Transportation, Water",
+    "similarity_score": 0.9195,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2303",
+    "canonical_b_id": "canon_2304",
+    "name_a": "Other Fabricated Metal Product Manufacturing",
+    "name_b": "Other Fabricated Wire Product Manufacturing",
+    "similarity_score": 0.9195,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0932",
+    "canonical_b_id": "canon_1918",
+    "name_a": "Dental Equipment and Supplies Manufacturing",
+    "name_b": "Medical Equipment and Supplies Manufacturing",
+    "similarity_score": 0.9195,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1465",
+    "canonical_b_id": "canon_2326",
+    "name_a": "Health and Personal Care Retailers",
+    "name_b": "Other Health and Personal Care Retailers",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2388",
+    "canonical_b_id": "canon_2490",
+    "name_a": "Other Paperboard Container Manufacturing",
+    "name_b": "Paperboard Container Manufacturing",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0292",
+    "canonical_b_id": "canon_2952",
+    "name_a": "Asset Performance Management Software",
+    "name_b": "Sales Performance Management Software",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2934",
+    "canonical_b_id": "canon_2936",
+    "name_a": "Sage CRM Resellers",
+    "name_b": "Sage HRMS Resellers",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1591",
+    "canonical_b_id": "canon_1597",
+    "name_a": "Infor CRM Resellers",
+    "name_b": "Infor M3 Resellers",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0138",
+    "canonical_b_id": "canon_2767",
+    "name_a": "Air Transportation",
+    "name_b": "Rail Transportation",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0098",
+    "canonical_b_id": "canon_0530",
+    "name_a": "AI Chatbots Software",
+    "name_b": "Chatbots Software",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1594",
+    "canonical_b_id": "canon_1597",
+    "name_a": "Infor EAM Resellers",
+    "name_b": "Infor M3 Resellers",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1594",
+    "canonical_b_id": "canon_1601",
+    "name_a": "Infor EAM Resellers",
+    "name_b": "Infor XA Resellers",
+    "similarity_score": 0.9189,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2125",
+    "canonical_b_id": "canon_3405",
+    "name_a": "Nonupholstered Wood Household Furniture Manufacturing",
+    "name_b": "Upholstered Household Furniture Manufacturing",
+    "similarity_score": 0.9184,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0987",
+    "canonical_b_id": "canon_0993",
+    "name_a": "Direct Life Insurance Carriers",
+    "name_b": "Direct Title Insurance Carriers",
+    "similarity_score": 0.918,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1564",
+    "canonical_b_id": "canon_2465",
+    "name_a": "Inbound Call Tracking Software",
+    "name_b": "Outbound Call Tracking Software",
+    "similarity_score": 0.918,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1855",
+    "canonical_b_id": "canon_1862",
+    "name_a": "Managed IoT Services Providers",
+    "name_b": "Managed SIEM Services Providers",
+    "similarity_score": 0.918,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0957",
+    "canonical_b_id": "canon_1688",
+    "name_a": "Digital Asset Management Software",
+    "name_b": "IT Asset Management Software",
+    "similarity_score": 0.918,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3241",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Support Activities for Rail Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.9176,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3242",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Support Activities for Road Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.9176,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2184",
+    "canonical_b_id": "canon_3338",
+    "name_a": "Oil Production Software",
+    "name_b": "Title Production Software",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1532",
+    "canonical_b_id": "canon_3605",
+    "name_a": "HR Consulting Providers",
+    "name_b": "Zoho Consulting Providers",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1476",
+    "canonical_b_id": "canon_1483",
+    "name_a": "Healthcare Claims Management Software",
+    "name_b": "Healthcare Risk Management Software",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0043",
+    "canonical_b_id": "canon_2239",
+    "name_a": "Activities Related to Real Estate",
+    "name_b": "Other Activities Related to Real Estate",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1158",
+    "canonical_b_id": "canon_1161",
+    "name_a": "Enterprise IT Management Software",
+    "name_b": "Enterprise Mobility Management Software",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2026",
+    "canonical_b_id": "canon_2374",
+    "name_a": "Motor Vehicle Parts Manufacturing",
+    "name_b": "Other Motor Vehicle Parts Manufacturing",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0342",
+    "canonical_b_id": "canon_2251",
+    "name_a": "Automotive Repair and Maintenance",
+    "name_b": "Other Automotive Repair and Maintenance",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0891",
+    "canonical_b_id": "canon_0905",
+    "name_a": "Data Security Software",
+    "name_b": "Database Security Software",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0194",
+    "canonical_b_id": "canon_2442",
+    "name_a": "All Other Support Services",
+    "name_b": "Other Support Services",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1562",
+    "canonical_b_id": "canon_2335",
+    "name_a": "Implementation Services Providers",
+    "name_b": "Other Implementation Services Providers",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3575",
+    "canonical_b_id": "canon_3579",
+    "name_a": "Wired and Wireless Telecommunications Carriers (except Satellite)",
+    "name_b": "Wireless Telecommunications Carriers (except Satellite)",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1524",
+    "canonical_b_id": "canon_1848",
+    "name_a": "Household Appliance Manufacturing",
+    "name_b": "Major Household Appliance Manufacturing",
+    "similarity_score": 0.9167,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2709",
+    "canonical_b_id": "canon_2710",
+    "name_a": "Project Cost Management Software",
+    "name_b": "Project Management Software",
+    "similarity_score": 0.9153,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2019",
+    "canonical_b_id": "canon_2023",
+    "name_a": "Motor Vehicle Body Manufacturing",
+    "name_b": "Motor Vehicle Manufacturing",
+    "similarity_score": 0.9153,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0372",
+    "canonical_b_id": "canon_0520",
+    "name_a": "Beef Cattle Ranching and Farming",
+    "name_b": "Cattle Ranching and Farming",
+    "similarity_score": 0.9153,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0193",
+    "canonical_b_id": "canon_2438",
+    "name_a": "All Other Support Activities for Transportation",
+    "name_b": "Other Support Activities for Air Transportation",
+    "similarity_score": 0.9149,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_2752",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.9149,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1972",
+    "canonical_b_id": "canon_2368",
+    "name_a": "Miscellaneous Durable Goods Merchant Wholesalers",
+    "name_b": "Other Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2928",
+    "canonical_b_id": "canon_2929",
+    "name_a": "Sage 300 Resellers",
+    "name_b": "Sage 50 Resellers",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2927",
+    "canonical_b_id": "canon_2929",
+    "name_a": "Sage 100 Resellers",
+    "name_b": "Sage 50 Resellers",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2928",
+    "canonical_b_id": "canon_2939",
+    "name_a": "Sage 300 Resellers",
+    "name_b": "Sage X3 Resellers",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1976",
+    "canonical_b_id": "canon_2366",
+    "name_a": "Miscellaneous Nondurable Goods Merchant Wholesalers",
+    "name_b": "Other Miscellaneous Durable Goods Merchant Wholesalers",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1773",
+    "canonical_b_id": "canon_1922",
+    "name_a": "Legal Practice Management Software",
+    "name_b": "Medical Practice Management Software",
+    "similarity_score": 0.9143,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2973",
+    "canonical_b_id": "canon_2976",
+    "name_a": "Scenic and Sightseeing Transportation",
+    "name_b": "Scenic and Sightseeing Transportation, Water",
+    "similarity_score": 0.9136,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0540",
+    "canonical_b_id": "canon_2103",
+    "name_a": "Chocolate and Confectionery Manufacturing",
+    "name_b": "Nonchocolate Confectionery Manufacturing",
+    "similarity_score": 0.9136,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2973",
+    "canonical_b_id": "canon_2975",
+    "name_a": "Scenic and Sightseeing Transportation",
+    "name_b": "Scenic and Sightseeing Transportation, Other",
+    "similarity_score": 0.9136,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1004",
+    "canonical_b_id": "canon_3331",
+    "name_a": "Distribution Software",
+    "name_b": "Tip Distribution Software",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0487",
+    "canonical_b_id": "canon_2585",
+    "name_a": "C/C++ Integrated Development Environments (IDE)",
+    "name_b": "PHP Integrated Development Environments (IDE)",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_1705",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "Java Integrated Development Environments (IDE)",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0351",
+    "canonical_b_id": "canon_2963",
+    "name_a": "AWS Consulting Services",
+    "name_b": "SAP Consulting Services",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1247",
+    "canonical_b_id": "canon_1250",
+    "name_a": "Financial Aid Software",
+    "name_b": "Financial Audit Software",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3541",
+    "canonical_b_id": "canon_3554",
+    "name_a": "Web Security Software",
+    "name_b": "Website Security Software",
+    "similarity_score": 0.913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1045",
+    "canonical_b_id": "canon_3179",
+    "name_a": "Dynamic Application Security Testing (DAST) Software",
+    "name_b": "Static Application Security Testing (SAST) Software",
+    "similarity_score": 0.9126,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0323",
+    "canonical_b_id": "canon_1717",
+    "name_a": "Auto Shop Management Software",
+    "name_b": "Job Shop Management Software",
+    "similarity_score": 0.9123,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2871",
+    "canonical_b_id": "canon_2877",
+    "name_a": "Retail Management Software",
+    "name_b": "Retail Task Management Software",
+    "similarity_score": 0.9123,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2534",
+    "canonical_b_id": "canon_2952",
+    "name_a": "Performance Management Software",
+    "name_b": "Sales Performance Management Software",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1280",
+    "canonical_b_id": "canon_1864",
+    "name_a": "Fleet Management Consulting Providers",
+    "name_b": "Management Consulting Providers",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1425",
+    "canonical_b_id": "canon_2322",
+    "name_a": "Grantmaking and Giving Services",
+    "name_b": "Other Grantmaking and Giving Services",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2122",
+    "canonical_b_id": "canon_2383",
+    "name_a": "Nonscheduled Air Transportation",
+    "name_b": "Other Nonscheduled Air Transportation",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0292",
+    "canonical_b_id": "canon_2534",
+    "name_a": "Asset Performance Management Software",
+    "name_b": "Performance Management Software",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1470",
+    "canonical_b_id": "canon_2327",
+    "name_a": "Health Care Operations Software",
+    "name_b": "Other Health Care Operations Software",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0213",
+    "canonical_b_id": "canon_2244",
+    "name_a": "Ambulatory Health Care Services",
+    "name_b": "Other Ambulatory Health Care Services",
+    "similarity_score": 0.9118,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0166",
+    "canonical_b_id": "canon_2352",
+    "name_a": "All Other Legal Services",
+    "name_b": "Other Legal Services",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0452",
+    "canonical_b_id": "canon_2257",
+    "name_a": "Building Finishing Contractors",
+    "name_b": "Other Building Finishing Contractors",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2232",
+    "canonical_b_id": "canon_2233",
+    "name_a": "Ornamental and Architectural Metal Products Manufacturing",
+    "name_b": "Ornamental and Architectural Metal Work Manufacturing",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1570",
+    "canonical_b_id": "canon_2336",
+    "name_a": "Individual and Family Services",
+    "name_b": "Other Individual and Family Services",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0945",
+    "canonical_b_id": "canon_2290",
+    "name_a": "Development Services Providers",
+    "name_b": "Other Development Services Providers",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2397",
+    "canonical_b_id": "canon_2609",
+    "name_a": "Other Plastics Product Manufacturing",
+    "name_b": "Plastics Product Manufacturing",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1076",
+    "canonical_b_id": "canon_3566",
+    "name_a": "Electric Power Generation",
+    "name_b": "Wind Electric Power Generation",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1773",
+    "canonical_b_id": "canon_3273",
+    "name_a": "Legal Practice Management Software",
+    "name_b": "Tax Practice Management Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2926",
+    "canonical_b_id": "canon_3155",
+    "name_a": "SaaS Spend Management Software",
+    "name_b": "Spend Management Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1376",
+    "canonical_b_id": "canon_1377",
+    "name_a": "General Freight Trucking, Long-Distance, Less Than Truckload",
+    "name_b": "General Freight Trucking, Long-Distance, Truckload",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0689",
+    "canonical_b_id": "canon_0691",
+    "name_a": "Construction Drawing Management Software",
+    "name_b": "Construction Loan Management Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2951",
+    "canonical_b_id": "canon_3266",
+    "name_a": "Sales Intelligence Software",
+    "name_b": "Talent Intelligence Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1076",
+    "canonical_b_id": "canon_1543",
+    "name_a": "Electric Power Generation",
+    "name_b": "Hydroelectric Power Generation",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0356",
+    "canonical_b_id": "canon_2523",
+    "name_a": "Backup Software",
+    "name_b": "PC Backup Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2269",
+    "canonical_b_id": "canon_3280",
+    "name_a": "Other Collaboration Software",
+    "name_b": "Team Collaboration Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1865",
+    "canonical_b_id": "canon_2356",
+    "name_a": "Management Consulting Services",
+    "name_b": "Other Management Consulting Services",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0451",
+    "canonical_b_id": "canon_2256",
+    "name_a": "Building Equipment Contractors",
+    "name_b": "Other Building Equipment Contractors",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0352",
+    "canonical_b_id": "canon_1891",
+    "name_a": "AWS Marketplace Software",
+    "name_b": "Marketplace Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2777",
+    "canonical_b_id": "canon_2782",
+    "name_a": "Real Estate CRM Software",
+    "name_b": "Real Estate Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2689",
+    "canonical_b_id": "canon_2728",
+    "name_a": "Product Data Management (PDM) Software",
+    "name_b": "Provider Data Management (PDM) Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1812",
+    "canonical_b_id": "canon_1813",
+    "name_a": "Loan Pricing Software",
+    "name_b": "Loan Servicing Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1891",
+    "canonical_b_id": "canon_3395",
+    "name_a": "Marketplace Software",
+    "name_b": "UKG Marketplace Software",
+    "similarity_score": 0.9091,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1222",
+    "canonical_b_id": "canon_1969",
+    "name_a": "Farm Machinery and Equipment Manufacturing",
+    "name_b": "Mining Machinery and Equipment Manufacturing",
+    "similarity_score": 0.907,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1103",
+    "canonical_b_id": "canon_1676",
+    "name_a": "Email Security Services Providers",
+    "name_b": "IoT Security Services Providers",
+    "similarity_score": 0.9062,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2426",
+    "canonical_b_id": "canon_3091",
+    "name_a": "Other Social Advocacy Organizations",
+    "name_b": "Social Advocacy Organizations",
+    "similarity_score": 0.9062,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3236",
+    "canonical_b_id": "canon_3237",
+    "name_a": "Support Activities for Metal Mining",
+    "name_b": "Support Activities for Mining",
+    "similarity_score": 0.9062,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2130",
+    "canonical_b_id": "canon_3124",
+    "name_a": "Nuclear Electric Power Generation",
+    "name_b": "Solar Electric Power Generation",
+    "similarity_score": 0.9062,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2428",
+    "canonical_b_id": "canon_3128",
+    "name_a": "Other Solution Consulting Providers",
+    "name_b": "Solution Consulting Providers",
+    "similarity_score": 0.9062,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0700",
+    "canonical_b_id": "canon_0701",
+    "name_a": "Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",
+    "name_b": "Construction, Transportation, Mining, and Forestry Machinery and Equipment Rental and Leasing",
+    "similarity_score": 0.9059,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1755",
+    "canonical_b_id": "canon_2951",
+    "name_a": "Lead Intelligence Software",
+    "name_b": "Sales Intelligence Software",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3373",
+    "canonical_b_id": "canon_3374",
+    "name_a": "Travel Arrangement Software",
+    "name_b": "Travel Management Software",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0609",
+    "canonical_b_id": "canon_3253",
+    "name_a": "Club Management Software",
+    "name_b": "Swim Club Management Software",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0187",
+    "canonical_b_id": "canon_2705",
+    "name_a": "All Other Professional, Scientific, and Technical Services",
+    "name_b": "Professional, Scientific, and Technical Services",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0724",
+    "canonical_b_id": "canon_0739",
+    "name_a": "Content Analytics Software",
+    "name_b": "Contract Analytics Software",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0427",
+    "canonical_b_id": "canon_1755",
+    "name_a": "Brand Intelligence Software",
+    "name_b": "Lead Intelligence Software",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1565",
+    "canonical_b_id": "canon_2466",
+    "name_a": "Inbound Marketing Services",
+    "name_b": "Outbound Marketing Services",
+    "similarity_score": 0.9057,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0193",
+    "canonical_b_id": "canon_2439",
+    "name_a": "All Other Support Activities for Transportation",
+    "name_b": "Other Support Activities for Road Transportation",
+    "similarity_score": 0.9053,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0965",
+    "canonical_b_id": "canon_2587",
+    "name_a": "Digital Document Destruction Services Providers",
+    "name_b": "Physical Document Destruction Services Providers",
+    "similarity_score": 0.9053,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0161",
+    "canonical_b_id": "canon_2321",
+    "name_a": "All Other Grain Farming",
+    "name_b": "Other Grain Farming",
+    "similarity_score": 0.9048,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0878",
+    "canonical_b_id": "canon_0879",
+    "name_a": "Data Mapping Software",
+    "name_b": "Data Masking Software",
+    "similarity_score": 0.9048,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0223",
+    "canonical_b_id": "canon_1667",
+    "name_a": "Analytics Platforms",
+    "name_b": "IoT Analytics Platforms",
+    "similarity_score": 0.9048,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0235",
+    "canonical_b_id": "canon_1670",
+    "name_a": "API Development Tools",
+    "name_b": "IoT Development Tools",
+    "similarity_score": 0.9048,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1826",
+    "canonical_b_id": "canon_2005",
+    "name_a": "Log Monitoring Software",
+    "name_b": "Monitoring Software",
+    "similarity_score": 0.9048,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2169",
+    "canonical_b_id": "canon_2170",
+    "name_a": "Offices of Physicians (except Mental Health Specialists)",
+    "name_b": "Offices of Physicians, Mental Health Specialists",
+    "similarity_score": 0.9038,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2296",
+    "canonical_b_id": "canon_3124",
+    "name_a": "Other Electric Power Generation",
+    "name_b": "Solar Electric Power Generation",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1705",
+    "canonical_b_id": "canon_2341",
+    "name_a": "Java Integrated Development Environments (IDE)",
+    "name_b": "Other Integrated Development Environments (IDE)",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1012",
+    "canonical_b_id": "canon_1771",
+    "name_a": "Document Management Software",
+    "name_b": "Legal Document Management Software",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1303",
+    "canonical_b_id": "canon_2311",
+    "name_a": "Food Crops Grown Under Cover",
+    "name_b": "Other Food Crops Grown Under Cover",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2415",
+    "canonical_b_id": "canon_2915",
+    "name_a": "Other Rubber Product Manufacturing",
+    "name_b": "Rubber Product Manufacturing",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0487",
+    "canonical_b_id": "canon_1705",
+    "name_a": "C/C++ Integrated Development Environments (IDE)",
+    "name_b": "Java Integrated Development Environments (IDE)",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2938",
+    "canonical_b_id": "canon_2939",
+    "name_a": "Sage Resellers",
+    "name_b": "Sage X3 Resellers",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2929",
+    "canonical_b_id": "canon_2938",
+    "name_a": "Sage 50 Resellers",
+    "name_b": "Sage Resellers",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0002",
+    "canonical_b_id": "canon_0487",
+    "name_a": ".NET Integrated Development Environments (IDE)",
+    "name_b": "C/C++ Integrated Development Environments (IDE)",
+    "similarity_score": 0.9032,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1458",
+    "canonical_b_id": "canon_3121",
+    "name_a": "Hardwood Veneer and Plywood Manufacturing",
+    "name_b": "Softwood Veneer and Plywood Manufacturing",
+    "similarity_score": 0.9024,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2392",
+    "canonical_b_id": "canon_2393",
+    "name_a": "Other Personal Care Services",
+    "name_b": "Other Personal Services",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0587",
+    "canonical_b_id": "canon_0604",
+    "name_a": "Cloud Edge Security Software",
+    "name_b": "Cloud Security Software",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0430",
+    "canonical_b_id": "canon_2218",
+    "name_a": "Braze Consulting Services",
+    "name_b": "Oracle Consulting Services",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0584",
+    "canonical_b_id": "canon_0604",
+    "name_a": "Cloud Data Security Software",
+    "name_b": "Cloud Security Software",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0959",
+    "canonical_b_id": "canon_0972",
+    "name_a": "Digital Banking Platforms",
+    "name_b": "Digital Learning Platforms",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0589",
+    "canonical_b_id": "canon_0604",
+    "name_a": "Cloud File Security Software",
+    "name_b": "Cloud Security Software",
+    "similarity_score": 0.902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0935",
+    "canonical_b_id": "canon_1922",
+    "name_a": "Dental Practice Management Software",
+    "name_b": "Medical Practice Management Software",
+    "similarity_score": 0.9014,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2402",
+    "canonical_b_id": "canon_2680",
+    "name_a": "Other Process Automation Software",
+    "name_b": "Process Automation Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2444",
+    "canonical_b_id": "canon_3282",
+    "name_a": "Other Technical and Trade Schools",
+    "name_b": "Technical and Trade Schools",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2023",
+    "canonical_b_id": "canon_2026",
+    "name_a": "Motor Vehicle Manufacturing",
+    "name_b": "Motor Vehicle Parts Manufacturing",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0154",
+    "canonical_b_id": "canon_2285",
+    "name_a": "All Other Crop Farming",
+    "name_b": "Other Crop Farming",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1062",
+    "canonical_b_id": "canon_1066",
+    "name_a": "Education ERP Software",
+    "name_b": "Education Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0813",
+    "canonical_b_id": "canon_2286",
+    "name_a": "Crushed and Broken Limestone Mining and Quarrying",
+    "name_b": "Other Crushed and Broken Stone Mining and Quarrying",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0795",
+    "canonical_b_id": "canon_2284",
+    "name_a": "Creative Services Providers",
+    "name_b": "Other Creative Services Providers",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2882",
+    "canonical_b_id": "canon_2883",
+    "name_a": "Revenue Cycle Management Software",
+    "name_b": "Revenue Management Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1995",
+    "canonical_b_id": "canon_2370",
+    "name_a": "Mobile Development Software",
+    "name_b": "Other Mobile Development Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2451",
+    "canonical_b_id": "canon_3373",
+    "name_a": "Other Travel Arrangement Software",
+    "name_b": "Travel Arrangement Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2430",
+    "canonical_b_id": "canon_3142",
+    "name_a": "Other Specialized Design Services",
+    "name_b": "Specialized Design Services",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0107",
+    "canonical_b_id": "canon_0871",
+    "name_a": "AI Governance Tools",
+    "name_b": "Data Governance Tools",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0834",
+    "canonical_b_id": "canon_1554",
+    "name_a": "Customer Identity and Access Management (CIAM) Software",
+    "name_b": "Identity and Access Management (IAM) Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1975",
+    "canonical_b_id": "canon_2367",
+    "name_a": "Miscellaneous Manufacturing",
+    "name_b": "Other Miscellaneous Manufacturing",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2433",
+    "canonical_b_id": "canon_3150",
+    "name_a": "Other Specialty Trade Contractors",
+    "name_b": "Specialty Trade Contractors",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1920",
+    "canonical_b_id": "canon_1925",
+    "name_a": "Medical Lab Software",
+    "name_b": "Medical Spa Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2710",
+    "canonical_b_id": "canon_2711",
+    "name_a": "Project Management Software",
+    "name_b": "Project Management Tools Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2389",
+    "canonical_b_id": "canon_2509",
+    "name_a": "Other Patient Experience Software",
+    "name_b": "Patient Experience Software",
+    "similarity_score": 0.9,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_3241",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Support Activities for Rail Transportation",
+    "similarity_score": 0.8989,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0104",
+    "canonical_b_id": "canon_2290",
+    "name_a": "AI Development Services Providers",
+    "name_b": "Other Development Services Providers",
+    "similarity_score": 0.8986,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3143",
+    "canonical_b_id": "canon_3144",
+    "name_a": "Specialized Freight (except Used Goods) Trucking, Local",
+    "name_b": "Specialized Freight (except Used Goods) Trucking, Long-Distance",
+    "similarity_score": 0.8983,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1102",
+    "canonical_b_id": "canon_2002",
+    "name_a": "Email Marketing Software",
+    "name_b": "Mobile Marketing Software",
+    "similarity_score": 0.898,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0881",
+    "canonical_b_id": "canon_2141",
+    "name_a": "Data Observability Software",
+    "name_b": "Observability Software",
+    "similarity_score": 0.898,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1026",
+    "canonical_b_id": "canon_1532",
+    "name_a": "Drift Consulting Providers",
+    "name_b": "HR Consulting Providers",
+    "similarity_score": 0.898,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0497",
+    "canonical_b_id": "canon_0579",
+    "name_a": "Call Compliance Software",
+    "name_b": "Cloud Compliance Software",
+    "similarity_score": 0.898,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0053",
+    "canonical_b_id": "canon_0056",
+    "name_a": "Administration of Economic Programs",
+    "name_b": "Administration of General Economic Programs",
+    "similarity_score": 0.8974,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1636",
+    "canonical_b_id": "canon_3179",
+    "name_a": "Interactive Application Security Testing (IAST) Software",
+    "name_b": "Static Application Security Testing (SAST) Software",
+    "similarity_score": 0.8972,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1577",
+    "canonical_b_id": "canon_1587",
+    "name_a": "Industrial Gas Manufacturing",
+    "name_b": "Industrial Valve Manufacturing",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2974",
+    "canonical_b_id": "canon_2975",
+    "name_a": "Scenic and Sightseeing Transportation, Land",
+    "name_b": "Scenic and Sightseeing Transportation, Other",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2463",
+    "canonical_b_id": "canon_3585",
+    "name_a": "Other Wood Product Manufacturing",
+    "name_b": "Wood Product Manufacturing",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2429",
+    "canonical_b_id": "canon_3129",
+    "name_a": "Other Sound Recording Industries",
+    "name_b": "Sound Recording Industries",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0910",
+    "canonical_b_id": "canon_2959",
+    "name_a": "Dayforce Consulting Services",
+    "name_b": "Salesforce Consulting Services",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0468",
+    "canonical_b_id": "canon_2259",
+    "name_a": "Business Finance  Providers",
+    "name_b": "Other Business Finance  Providers",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0648",
+    "canonical_b_id": "canon_2274",
+    "name_a": "Community Housing Services",
+    "name_b": "Other Community Housing Services",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0601",
+    "canonical_b_id": "canon_3461",
+    "name_a": "Cloud Platform as a Service (PaaS) Software",
+    "name_b": "Video Platform as a Service (VPaaS) Software",
+    "similarity_score": 0.8966,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0197",
+    "canonical_b_id": "canon_3361",
+    "name_a": "All Other Transit and Ground Passenger Transportation",
+    "name_b": "Transit and Ground Passenger Transportation",
+    "similarity_score": 0.8958,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0199",
+    "canonical_b_id": "canon_3372",
+    "name_a": "All Other Travel Arrangement and Reservation Services",
+    "name_b": "Travel Arrangement and Reservation Services",
+    "similarity_score": 0.8958,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0193",
+    "canonical_b_id": "canon_2441",
+    "name_a": "All Other Support Activities for Transportation",
+    "name_b": "Other Support Activities for Water Transportation",
+    "similarity_score": 0.8958,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1592",
+    "canonical_b_id": "canon_1593",
+    "name_a": "Infor Distribution FACTS Resellers",
+    "name_b": "Infor Distribution SX.e Resellers",
+    "similarity_score": 0.8955,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1143",
+    "canonical_b_id": "canon_1676",
+    "name_a": "Endpoint Security Services Providers",
+    "name_b": "IoT Security Services Providers",
+    "similarity_score": 0.8955,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1413",
+    "canonical_b_id": "canon_1415",
+    "name_a": "Google Workspace for HR Software",
+    "name_b": "Google Workspace for Sales Software",
+    "similarity_score": 0.8955,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1591",
+    "canonical_b_id": "canon_1595",
+    "name_a": "Infor CRM Resellers",
+    "name_b": "Infor ERP Resellers",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0348",
+    "canonical_b_id": "canon_0349",
+    "name_a": "Aviation MRO Software",
+    "name_b": "Aviation Software",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1594",
+    "canonical_b_id": "canon_1595",
+    "name_a": "Infor EAM Resellers",
+    "name_b": "Infor ERP Resellers",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0138",
+    "canonical_b_id": "canon_3526",
+    "name_a": "Air Transportation",
+    "name_b": "Water Transportation",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1674",
+    "canonical_b_id": "canon_2210",
+    "name_a": "IoT Operating Systems",
+    "name_b": "Operating Systems",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2524",
+    "canonical_b_id": "canon_3535",
+    "name_a": "PCB Design Software",
+    "name_b": "Web Design Software",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1591",
+    "canonical_b_id": "canon_1594",
+    "name_a": "Infor CRM Resellers",
+    "name_b": "Infor EAM Resellers",
+    "similarity_score": 0.8947,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2548",
+    "canonical_b_id": "canon_2549",
+    "name_a": "Pesticide and Other Agricultural Chemical Manufacturing",
+    "name_b": "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing",
+    "similarity_score": 0.8943,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1462",
+    "canonical_b_id": "canon_2379",
+    "name_a": "Hazardous Waste Treatment and Disposal",
+    "name_b": "Other Nonhazardous Waste Treatment and Disposal",
+    "similarity_score": 0.8941,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1532",
+    "canonical_b_id": "canon_3393",
+    "name_a": "HR Consulting Providers",
+    "name_b": "UKG Consulting Providers",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1705",
+    "canonical_b_id": "canon_2752",
+    "name_a": "Java Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0487",
+    "canonical_b_id": "canon_2341",
+    "name_a": "C/C++ Integrated Development Environments (IDE)",
+    "name_b": "Other Integrated Development Environments (IDE)",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1365",
+    "canonical_b_id": "canon_1819",
+    "name_a": "Game Localization Services",
+    "name_b": "Localization Services",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2064",
+    "canonical_b_id": "canon_2065",
+    "name_a": "Natural Language Processing (NLP) Platforms Software",
+    "name_b": "Natural Language Processing (NLP) Software",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2647",
+    "canonical_b_id": "canon_2688",
+    "name_a": "PR Analytics Software",
+    "name_b": "Product Analytics Software",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0237",
+    "canonical_b_id": "canon_1754",
+    "name_a": "API Generation Software",
+    "name_b": "Lead Generation Software",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0294",
+    "canonical_b_id": "canon_3447",
+    "name_a": "Asset Tracking Software",
+    "name_b": "Vessel Tracking Software",
+    "similarity_score": 0.8936,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0482",
+    "canonical_b_id": "canon_2261",
+    "name_a": "Business Support Services",
+    "name_b": "Other Business Support Services",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3266",
+    "canonical_b_id": "canon_3323",
+    "name_a": "Talent Intelligence Software",
+    "name_b": "Threat Intelligence Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1877",
+    "canonical_b_id": "canon_3266",
+    "name_a": "Market Intelligence Software",
+    "name_b": "Talent Intelligence Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0584",
+    "canonical_b_id": "canon_0587",
+    "name_a": "Cloud Data Security Software",
+    "name_b": "Cloud Edge Security Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0725",
+    "canonical_b_id": "canon_3455",
+    "name_a": "Content Creation Software",
+    "name_b": "Video Content Creation Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0228",
+    "canonical_b_id": "canon_2247",
+    "name_a": "Animal Food Manufacturing",
+    "name_b": "Other Animal Food Manufacturing",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3001",
+    "canonical_b_id": "canon_3004",
+    "name_a": "Secure Email Gateway Software",
+    "name_b": "Secure Web Gateway Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0587",
+    "canonical_b_id": "canon_0589",
+    "name_a": "Cloud Edge Security Software",
+    "name_b": "Cloud File Security Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1877",
+    "canonical_b_id": "canon_2869",
+    "name_a": "Market Intelligence Software",
+    "name_b": "Retail Intelligence Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1076",
+    "canonical_b_id": "canon_3124",
+    "name_a": "Electric Power Generation",
+    "name_b": "Solar Electric Power Generation",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0291",
+    "canonical_b_id": "canon_0426",
+    "name_a": "Asset Management  Software",
+    "name_b": "Brand Asset Management Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0907",
+    "canonical_b_id": "canon_0909",
+    "name_a": "Datadog Consulting Services",
+    "name_b": "DataRobot Consulting Services",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1076",
+    "canonical_b_id": "canon_2296",
+    "name_a": "Electric Power Generation",
+    "name_b": "Other Electric Power Generation",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2869",
+    "canonical_b_id": "canon_3266",
+    "name_a": "Retail Intelligence Software",
+    "name_b": "Talent Intelligence Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1187",
+    "canonical_b_id": "canon_2302",
+    "name_a": "Event Management Software",
+    "name_b": "Other Event Management Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2869",
+    "canonical_b_id": "canon_3323",
+    "name_a": "Retail Intelligence Software",
+    "name_b": "Threat Intelligence Software",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2390",
+    "canonical_b_id": "canon_2535",
+    "name_a": "Other Performing Arts Companies",
+    "name_b": "Performing Arts Companies",
+    "similarity_score": 0.8929,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0155",
+    "canonical_b_id": "canon_0170",
+    "name_a": "All Other Electrical Equipment and Component Manufacturing",
+    "name_b": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+    "similarity_score": 0.8923,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0890",
+    "canonical_b_id": "canon_2420",
+    "name_a": "Data Security Services Providers",
+    "name_b": "Other Security Services Providers",
+    "similarity_score": 0.8923,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0890",
+    "canonical_b_id": "canon_1103",
+    "name_a": "Data Security Services Providers",
+    "name_b": "Email Security Services Providers",
+    "similarity_score": 0.8923,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1922",
+    "canonical_b_id": "canon_3149",
+    "name_a": "Medical Practice Management Software",
+    "name_b": "Specialty Practice Management Software",
+    "similarity_score": 0.8919,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1153",
+    "canonical_b_id": "canon_1165",
+    "name_a": "Enterprise Asset Management (EAM) Software",
+    "name_b": "Enterprise Risk Management (ERM) Software",
+    "similarity_score": 0.8916,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0181",
+    "canonical_b_id": "canon_2115",
+    "name_a": "All Other Nonmetallic Mineral Product Manufacturing",
+    "name_b": "Nonmetallic Mineral Product Manufacturing",
+    "similarity_score": 0.8913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0184",
+    "canonical_b_id": "canon_2556",
+    "name_a": "All Other Petroleum and Coal Products Manufacturing",
+    "name_b": "Petroleum and Coal Products Manufacturing",
+    "similarity_score": 0.8913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0172",
+    "canonical_b_id": "canon_0180",
+    "name_a": "All Other Miscellaneous Food Manufacturing",
+    "name_b": "All Other Miscellaneous Wood Product Manufacturing",
+    "similarity_score": 0.8913,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2110",
+    "canonical_b_id": "canon_2111",
+    "name_a": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",
+    "name_b": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, Extruding, and Alloying",
+    "similarity_score": 0.8902,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1749",
+    "canonical_b_id": "canon_2349",
+    "name_a": "Law Enforcement Software",
+    "name_b": "Other Law Enforcement Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1031",
+    "canonical_b_id": "canon_2647",
+    "name_a": "Drone Analytics Software",
+    "name_b": "PR Analytics Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1596",
+    "canonical_b_id": "canon_1597",
+    "name_a": "Infor LN Resellers",
+    "name_b": "Infor M3 Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1837",
+    "canonical_b_id": "canon_2277",
+    "name_a": "Lumber and Other Construction Materials Merchant Wholesalers",
+    "name_b": "Other Construction Material Merchant Wholesalers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1596",
+    "canonical_b_id": "canon_1601",
+    "name_a": "Infor LN Resellers",
+    "name_b": "Infor XA Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0307",
+    "canonical_b_id": "canon_3454",
+    "name_a": "Audio Conferencing Software",
+    "name_b": "Video Conferencing Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0910",
+    "canonical_b_id": "canon_2218",
+    "name_a": "Dayforce Consulting Services",
+    "name_b": "Oracle Consulting Services",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1031",
+    "canonical_b_id": "canon_1529",
+    "name_a": "Drone Analytics Software",
+    "name_b": "HR Analytics Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1923",
+    "canonical_b_id": "canon_2757",
+    "name_a": "Medical Quality Management Systems (QMS)",
+    "name_b": "Quality Management Systems (QMS)",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3078",
+    "canonical_b_id": "canon_3083",
+    "name_a": "Smart Cities Software",
+    "name_b": "Smart Utilities Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0188",
+    "canonical_b_id": "canon_2408",
+    "name_a": "All Other Publishers",
+    "name_b": "Other Publishers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1175",
+    "canonical_b_id": "canon_1589",
+    "name_a": "Epicor Channel Partners",
+    "name_b": "Infor Channel Partners",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0151",
+    "canonical_b_id": "canon_0168",
+    "name_a": "All Other Chemical Product and Preparation Manufacturing",
+    "name_b": "All Other Miscellaneous Chemical Product and Preparation Manufacturing",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2246",
+    "canonical_b_id": "canon_2647",
+    "name_a": "Other Analytics Software",
+    "name_b": "PR Analytics Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2425",
+    "canonical_b_id": "canon_3086",
+    "name_a": "Other Snack Food Manufacturing",
+    "name_b": "Snack Food Manufacturing",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_3244",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Support Activities for Water Transportation",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1596",
+    "canonical_b_id": "canon_1602",
+    "name_a": "Infor LN Resellers",
+    "name_b": "Infor Xi Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2221",
+    "canonical_b_id": "canon_2227",
+    "name_a": "Oracle ERP Resellers",
+    "name_b": "Oracle Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1009",
+    "canonical_b_id": "canon_1011",
+    "name_a": "Document Creation Software",
+    "name_b": "Document Generation Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1054",
+    "canonical_b_id": "canon_1055",
+    "name_a": "E-Signature APIs Software",
+    "name_b": "E-Signature Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0017",
+    "canonical_b_id": "canon_1531",
+    "name_a": "ACA Compliance Software",
+    "name_b": "HR Compliance Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1531",
+    "canonical_b_id": "canon_1545",
+    "name_a": "HR Compliance Software",
+    "name_b": "I-9 Compliance Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1484",
+    "canonical_b_id": "canon_2329",
+    "name_a": "Healthcare Service Providers",
+    "name_b": "Other Healthcare Services Providers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2439",
+    "canonical_b_id": "canon_3241",
+    "name_a": "Other Support Activities for Road Transportation",
+    "name_b": "Support Activities for Rail Transportation",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2431",
+    "canonical_b_id": "canon_3148",
+    "name_a": "Other Specialty Food Retailers",
+    "name_b": "Specialty Food Retailers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0552",
+    "canonical_b_id": "canon_2508",
+    "name_a": "Citizen Engagement Software",
+    "name_b": "Patient Engagement Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3110",
+    "canonical_b_id": "canon_3123",
+    "name_a": "Software Design Software",
+    "name_b": "Solar Design Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3212",
+    "canonical_b_id": "canon_3213",
+    "name_a": "Subscription Management Software",
+    "name_b": "Subscription Revenue Management Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2719",
+    "canonical_b_id": "canon_2723",
+    "name_a": "Property Access Management Software",
+    "name_b": "Property Management Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1597",
+    "canonical_b_id": "canon_1601",
+    "name_a": "Infor M3 Resellers",
+    "name_b": "Infor XA Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1755",
+    "canonical_b_id": "canon_3266",
+    "name_a": "Lead Intelligence Software",
+    "name_b": "Talent Intelligence Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1755",
+    "canonical_b_id": "canon_3323",
+    "name_a": "Lead Intelligence Software",
+    "name_b": "Threat Intelligence Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0693",
+    "canonical_b_id": "canon_0695",
+    "name_a": "Construction Management Software",
+    "name_b": "Construction Project Management Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0801",
+    "canonical_b_id": "canon_2647",
+    "name_a": "Crime Analytics Software",
+    "name_b": "PR Analytics Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2441",
+    "canonical_b_id": "canon_3231",
+    "name_a": "Other Support Activities for Water Transportation",
+    "name_b": "Support Activities for Air Transportation",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0801",
+    "canonical_b_id": "canon_1529",
+    "name_a": "Crime Analytics Software",
+    "name_b": "HR Analytics Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1773",
+    "canonical_b_id": "canon_3149",
+    "name_a": "Legal Practice Management Software",
+    "name_b": "Specialty Practice Management Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2869",
+    "canonical_b_id": "canon_2895",
+    "name_a": "Retail Intelligence Software",
+    "name_b": "Risk Intelligence Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1754",
+    "canonical_b_id": "canon_2350",
+    "name_a": "Lead Generation Software",
+    "name_b": "Other Lead Generation Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1776",
+    "canonical_b_id": "canon_2353",
+    "name_a": "Legal Services Providers",
+    "name_b": "Other Legal Services Providers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1877",
+    "canonical_b_id": "canon_2895",
+    "name_a": "Market Intelligence Software",
+    "name_b": "Risk Intelligence Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2938",
+    "canonical_b_id": "canon_2964",
+    "name_a": "Sage Resellers",
+    "name_b": "SAP Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0547",
+    "canonical_b_id": "canon_1175",
+    "name_a": "Cisco Channel Partners",
+    "name_b": "Epicor Channel Partners",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1412",
+    "canonical_b_id": "canon_1415",
+    "name_a": "Google Workspace for Finance Software",
+    "name_b": "Google Workspace for Sales Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2443",
+    "canonical_b_id": "canon_3257",
+    "name_a": "Other Synthetic Media Software",
+    "name_b": "Synthetic Media Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0112",
+    "canonical_b_id": "canon_0119",
+    "name_a": "AI Legal Assistant Software",
+    "name_b": "AI Sales Assistant Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0689",
+    "canonical_b_id": "canon_0693",
+    "name_a": "Construction Drawing Management Software",
+    "name_b": "Construction Management Software",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2312",
+    "canonical_b_id": "canon_2425",
+    "name_a": "Other Food Manufacturing",
+    "name_b": "Other Snack Food Manufacturing",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1597",
+    "canonical_b_id": "canon_1602",
+    "name_a": "Infor M3 Resellers",
+    "name_b": "Infor Xi Resellers",
+    "similarity_score": 0.8889,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1357",
+    "canonical_b_id": "canon_2315",
+    "name_a": "Furniture and Related Product Manufacturing",
+    "name_b": "Other Furniture Related Product Manufacturing",
+    "similarity_score": 0.8864,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1864",
+    "canonical_b_id": "canon_1865",
+    "name_a": "Management Consulting Providers",
+    "name_b": "Management Consulting Services",
+    "similarity_score": 0.8852,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1722",
+    "canonical_b_id": "canon_2710",
+    "name_a": "Kanban Project Management Software",
+    "name_b": "Project Management Software",
+    "similarity_score": 0.8852,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3548",
+    "canonical_b_id": "canon_3551",
+    "name_a": "Website Change Monitoring Software",
+    "name_b": "Website Monitoring Software",
+    "similarity_score": 0.8852,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0865",
+    "canonical_b_id": "canon_0890",
+    "name_a": "Data Entry Services Providers",
+    "name_b": "Data Security Services Providers",
+    "similarity_score": 0.8852,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1543",
+    "canonical_b_id": "canon_2296",
+    "name_a": "Hydroelectric Power Generation",
+    "name_b": "Other Electric Power Generation",
+    "similarity_score": 0.8852,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2449",
+    "canonical_b_id": "canon_3368",
+    "name_a": "Other Transportation Software",
+    "name_b": "Transportation Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2387",
+    "canonical_b_id": "canon_2468",
+    "name_a": "Other Outpatient Care Centers",
+    "name_b": "Outpatient Care Centers",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1560",
+    "canonical_b_id": "canon_3498",
+    "name_a": "Image Recognition Software",
+    "name_b": "Voice Recognition Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1406",
+    "canonical_b_id": "canon_2218",
+    "name_a": "Google Consulting Services",
+    "name_b": "Oracle Consulting Services",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0070",
+    "canonical_b_id": "canon_0907",
+    "name_a": "Adobe Consulting Services",
+    "name_b": "Datadog Consulting Services",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1559",
+    "canonical_b_id": "canon_3511",
+    "name_a": "Image Optimization Software",
+    "name_b": "WAN Optimization Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2528",
+    "canonical_b_id": "canon_2999",
+    "name_a": "Peer Code Review Software",
+    "name_b": "Secure Code Review Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2460",
+    "canonical_b_id": "canon_3516",
+    "name_a": "Other Warehousing and Storage",
+    "name_b": "Warehousing and Storage",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2826",
+    "canonical_b_id": "canon_2827",
+    "name_a": "Remote Support Software",
+    "name_b": "Remote Video Support Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0080",
+    "canonical_b_id": "canon_2572",
+    "name_a": "Age Verification Software",
+    "name_b": "Phone Verification Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2396",
+    "canonical_b_id": "canon_2593",
+    "name_a": "Other Pipeline Transportation",
+    "name_b": "Pipeline Transportation",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0508",
+    "canonical_b_id": "canon_0814",
+    "name_a": "Carbon Accounting Software",
+    "name_b": "Crypto Accounting Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0310",
+    "canonical_b_id": "canon_3466",
+    "name_a": "Audio Translation Services",
+    "name_b": "Video Translation Services",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1363",
+    "canonical_b_id": "canon_1995",
+    "name_a": "Game Development Software",
+    "name_b": "Mobile Development Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0083",
+    "canonical_b_id": "canon_2515",
+    "name_a": "Agentic Analytics Software",
+    "name_b": "Payment Analytics Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0080",
+    "canonical_b_id": "canon_1110",
+    "name_a": "Age Verification Software",
+    "name_b": "Email Verification Software",
+    "similarity_score": 0.8846,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0487",
+    "canonical_b_id": "canon_2752",
+    "name_a": "C/C++ Integrated Development Environments (IDE)",
+    "name_b": "Python Integrated Development Environments (IDE)",
+    "similarity_score": 0.8842,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0891",
+    "canonical_b_id": "canon_2965",
+    "name_a": "Data Security Software",
+    "name_b": "SAP Security Software",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0156",
+    "canonical_b_id": "canon_1212",
+    "name_a": "All Other Fabricated Metal Product Manufacturing",
+    "name_b": "Fabricated Metal Product Manufacturing",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0198",
+    "canonical_b_id": "canon_3366",
+    "name_a": "All Other Transportation Equipment Manufacturing",
+    "name_b": "Transportation Equipment Manufacturing",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0069",
+    "canonical_b_id": "canon_2933",
+    "name_a": "Adobe Channel Partners",
+    "name_b": "Sage Channel Partners",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0289",
+    "canonical_b_id": "canon_2894",
+    "name_a": "Assessment Software",
+    "name_b": "Risk Assessment Software",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0035",
+    "canonical_b_id": "canon_1219",
+    "name_a": "Accounting Software",
+    "name_b": "Farm Accounting Software",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0500",
+    "canonical_b_id": "canon_3217",
+    "name_a": "Cane Sugar Manufacturing",
+    "name_b": "Sugar Manufacturing",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0377",
+    "canonical_b_id": "canon_3217",
+    "name_a": "Beet Sugar Manufacturing",
+    "name_b": "Sugar Manufacturing",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0235",
+    "canonical_b_id": "canon_1704",
+    "name_a": "API Development Tools",
+    "name_b": "Java Development Tools",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1240",
+    "canonical_b_id": "canon_1825",
+    "name_a": "File Analysis Software",
+    "name_b": "Log Analysis Software",
+    "similarity_score": 0.8837,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0794",
+    "canonical_b_id": "canon_3199",
+    "name_a": "Creative Portfolio Management Software",
+    "name_b": "Strategic Portfolio Management Software",
+    "similarity_score": 0.8831,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0691",
+    "canonical_b_id": "canon_0695",
+    "name_a": "Construction Loan Management Software",
+    "name_b": "Construction Project Management Software",
+    "similarity_score": 0.8831,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2929",
+    "canonical_b_id": "canon_2939",
+    "name_a": "Sage 50 Resellers",
+    "name_b": "Sage X3 Resellers",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1922",
+    "canonical_b_id": "canon_3273",
+    "name_a": "Medical Practice Management Software",
+    "name_b": "Tax Practice Management Software",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2083",
+    "canonical_b_id": "canon_2420",
+    "name_a": "Network Security Services Providers",
+    "name_b": "Other Security Services Providers",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0890",
+    "canonical_b_id": "canon_1143",
+    "name_a": "Data Security Services Providers",
+    "name_b": "Endpoint Security Services Providers",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_3545",
+    "canonical_b_id": "canon_3546",
+    "name_a": "Website Accessibility Plugins Software",
+    "name_b": "Website Accessibility Software",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2870",
+    "canonical_b_id": "canon_2875",
+    "name_a": "Retail IoT Software",
+    "name_b": "Retail Software",
+    "similarity_score": 0.8824,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2512",
+    "canonical_b_id": "canon_3221",
+    "name_a": "Patient Relationship Management (PRM) Software",
+    "name_b": "Supplier Relationship Management (SRM) Software",
+    "similarity_score": 0.8817,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2497",
+    "canonical_b_id": "canon_3221",
+    "name_a": "Partner Relationship Management (PRM) Software",
+    "name_b": "Supplier Relationship Management (SRM) Software",
+    "similarity_score": 0.8817,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1883",
+    "canonical_b_id": "canon_2794",
+    "name_a": "Marketing Automation Software",
+    "name_b": "Recruiting Automation Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2291",
+    "canonical_b_id": "canon_2370",
+    "name_a": "Other Development Software",
+    "name_b": "Other Mobile Development Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0100",
+    "canonical_b_id": "canon_0114",
+    "name_a": "AI Coding Assistants Software",
+    "name_b": "AI Meeting Assistants Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0856",
+    "canonical_b_id": "canon_3182",
+    "name_a": "Dairy Product Manufacturing",
+    "name_b": "Stationery Product Manufacturing",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2507",
+    "canonical_b_id": "canon_2508",
+    "name_a": "Patient Case Management Software",
+    "name_b": "Patient Engagement Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1582",
+    "canonical_b_id": "canon_1587",
+    "name_a": "Industrial Mold Manufacturing",
+    "name_b": "Industrial Valve Manufacturing",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0426",
+    "canonical_b_id": "canon_1688",
+    "name_a": "Brand Asset Management Software",
+    "name_b": "IT Asset Management Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1229",
+    "canonical_b_id": "canon_1696",
+    "name_a": "Fatigue Risk Management Software",
+    "name_b": "IT Risk Management Software",
+    "similarity_score": 0.8814,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0153",
+    "canonical_b_id": "canon_0757",
+    "name_a": "All Other Converted Paper Product Manufacturing",
+    "name_b": "Converted Paper Product Manufacturing",
+    "similarity_score": 0.881,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2440",
+    "canonical_b_id": "canon_3231",
+    "name_a": "Other Support Activities for Transportation",
+    "name_b": "Support Activities for Air Transportation",
+    "similarity_score": 0.881,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1153",
+    "canonical_b_id": "canon_1160",
+    "name_a": "Enterprise Asset Management (EAM) Software",
+    "name_b": "Enterprise Legal Management (ELM) Software",
+    "similarity_score": 0.881,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0193",
+    "canonical_b_id": "canon_3243",
+    "name_a": "All Other Support Activities for Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.881,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2438",
+    "canonical_b_id": "canon_3243",
+    "name_a": "Other Support Activities for Air Transportation",
+    "name_b": "Support Activities for Transportation",
+    "similarity_score": 0.881,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0584",
+    "canonical_b_id": "canon_0891",
+    "name_a": "Cloud Data Security Software",
+    "name_b": "Data Security Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2392",
+    "canonical_b_id": "canon_2543",
+    "name_a": "Other Personal Care Services",
+    "name_b": "Personal Care Services",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1144",
+    "canonical_b_id": "canon_1532",
+    "name_a": "Energy Consulting Providers",
+    "name_b": "HR Consulting Providers",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2864",
+    "canonical_b_id": "canon_3203",
+    "name_a": "Retail Analytics Software",
+    "name_b": "Stream Analytics Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2406",
+    "canonical_b_id": "canon_2738",
+    "name_a": "Other Public Safety Software",
+    "name_b": "Public Safety Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0365",
+    "canonical_b_id": "canon_0534",
+    "name_a": "Basic Chemical Manufacturing",
+    "name_b": "Chemical Manufacturing",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0172",
+    "canonical_b_id": "canon_2367",
+    "name_a": "All Other Miscellaneous Food Manufacturing",
+    "name_b": "Other Miscellaneous Manufacturing",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0724",
+    "canonical_b_id": "canon_2246",
+    "name_a": "Content Analytics Software",
+    "name_b": "Other Analytics Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1790",
+    "canonical_b_id": "canon_2355",
+    "name_a": "Life Sciences Software",
+    "name_b": "Other Life Sciences Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0724",
+    "canonical_b_id": "canon_1031",
+    "name_a": "Content Analytics Software",
+    "name_b": "Drone Analytics Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0508",
+    "canonical_b_id": "canon_1219",
+    "name_a": "Carbon Accounting Software",
+    "name_b": "Farm Accounting Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1074",
+    "canonical_b_id": "canon_1081",
+    "name_a": "Electric Lighting Equipment Manufacturing",
+    "name_b": "Electrical Equipment Manufacturing",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0882",
+    "canonical_b_id": "canon_0887",
+    "name_a": "Data Preparation Software",
+    "name_b": "Data Replication Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_1535",
+    "canonical_b_id": "canon_2963",
+    "name_a": "HubSpot Consulting Services",
+    "name_b": "SAP Consulting Services",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0732",
+    "canonical_b_id": "canon_1188",
+    "name_a": "Content Marketing Software",
+    "name_b": "Event Marketing Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0099",
+    "canonical_b_id": "canon_0237",
+    "name_a": "AI Code Generation Software",
+    "name_b": "API Generation Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_2452",
+    "canonical_b_id": "canon_3376",
+    "name_a": "Other Traveler Accommodation",
+    "name_b": "Traveler Accommodation",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0070",
+    "canonical_b_id": "canon_0430",
+    "name_a": "Adobe Consulting Services",
+    "name_b": "Braze Consulting Services",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0732",
+    "canonical_b_id": "canon_2360",
+    "name_a": "Content Marketing Software",
+    "name_b": "Other Marketing Software",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0052",
+    "canonical_b_id": "canon_0054",
+    "name_a": "Administration of Conservation Programs",
+    "name_b": "Administration of Education Programs",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  },
+  {
+    "canonical_a_id": "canon_0580",
+    "canonical_b_id": "canon_3393",
+    "name_a": "Cloud Consulting Providers",
+    "name_b": "UKG Consulting Providers",
+    "similarity_score": 0.88,
+    "resolution_status": "pending"
+  }
+]

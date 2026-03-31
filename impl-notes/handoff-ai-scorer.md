@@ -9,6 +9,31 @@ Produce broad-pass scores and reasoning for each canonical business type against
 - `canonical_dataset.*` from Dataset Shaper
 - locked metric set, scoring rules, verbal rank labels, and founder thesis from `execution-master-context.md`
 
+## Pre-Planning Gate: Founder Metric Review (MANDATORY)
+
+Before entering the plan-write-test cycle, you MUST conduct an interactive review session with the founder. This session must happen FIRST — no planning or code until it completes and decisions are locked.
+
+### What to cover:
+
+1. **Present every scoring metric** with a plain-language explanation of what it measures and why it exists. Walk through them one at a time.
+2. **Present the founder thesis** as currently captured in `execution-master-context.md` and ask the founder to confirm, adjust, or expand it.
+3. **Ask the founder to evaluate each metric**: Does it matter to their decision? Is it clear? Is anything redundant?
+4. **Ask about missing dimensions**: Are there important factors not captured by the current 13 metrics?
+5. **Review the gate logic**: Are the three floor metrics the right hard requirements? Should any be added or changed?
+6. **Capture weighting intuition**: Even with equal numeric weights, which metrics matter most? This shapes the scoring prompt.
+7. **Lock decisions**: Summarize all changes, get explicit founder approval, then update `execution-master-context.md` with any metric/thesis/gate changes BEFORE writing the implementation plan.
+
+### Why this matters:
+
+The metric set defines what "good" means for the entire downstream pipeline — gate logic, shortlisting, and deep research all flow from these scores. Getting the metrics wrong means scoring 3,600+ businesses against the wrong criteria. This is the single highest-leverage decision point in the project.
+
+### Output of this session:
+
+- Confirmed or updated metric set in `execution-master-context.md`
+- Confirmed or updated founder thesis in `execution-master-context.md`
+- Confirmed or updated gate logic in `execution-master-context.md`
+- Only AFTER these are locked: proceed to the execution loop below
+
 ## Execution Loop
 
 Follow the mandatory execution protocol from `execution-package-index.md`:
