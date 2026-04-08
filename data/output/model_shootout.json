@@ -1,0 +1,35 @@
+{
+  "gpt-4.1": {
+    "latency": 23.473960399627686,
+    "input_tok": 2181,
+    "output_tok": 3807,
+    "reasoning_tok": 0,
+    "call_cost": 0.034818,
+    "proj_std": 25.138596,
+    "proj_batch": 12.569298,
+    "valid": 5,
+    "avg_score": 1.4333333333333333
+  },
+  "o3": {
+    "latency": 54.129252433776855,
+    "input_tok": 2180,
+    "output_tok": 5226,
+    "reasoning_tok": 1472,
+    "call_cost": 0.046168,
+    "proj_std": 33.333296,
+    "proj_batch": 16.666648,
+    "valid": 5,
+    "avg_score": 1.4666666666666666
+  },
+  "o4-mini": {
+    "latency": 34.06940174102783,
+    "input_tok": 2180,
+    "output_tok": 5156,
+    "reasoning_tok": 2176,
+    "call_cost": 0.0250844,
+    "proj_std": 18.1109368,
+    "proj_batch": 9.0554684,
+    "valid": 5,
+    "avg_score": 1.4833333333333334
+  }
+}

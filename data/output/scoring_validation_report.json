@@ -1,0 +1,128 @@
+{
+  "run_timestamp": "2026-04-07T09:15:35.909955+00:00",
+  "total_records": 3606,
+  "scored_successfully": 3606,
+  "failed_permanently": 0,
+  "coverage": {
+    "full_metric_coverage": 3606,
+    "partial_metric_coverage": 0,
+    "missing_overall_summary": 0
+  },
+  "score_bounds": {
+    "all_scores_in_range": true,
+    "out_of_range_count": 0
+  },
+  "verbal_labels": {
+    "all_reasoning_has_labels": true,
+    "missing_label_count": 0
+  },
+  "confidence_labels": {
+    "all_present": true,
+    "distribution": {
+      "low": 436,
+      "medium": 29414,
+      "high": 13422
+    }
+  },
+  "floor_pass_stats": {
+    "total_passing_floor": 1044,
+    "total_failing_floor": 2562,
+    "failure_reasons": {
+      "market_headroom_below_2": 1327,
+      "distribution_efficiency_below_2": 2269,
+      "margin_quality_below_2": 1385
+    }
+  },
+  "non_floor_average_stats": {
+    "mean": 1.4,
+    "median": 1.5,
+    "min": 0.0,
+    "max": 2.75,
+    "above_1.9_count": 756,
+    "above_2.5_count": 14
+  },
+  "score_distributions": {
+    "market_headroom": {
+      "0": 85,
+      "1": 1242,
+      "2": 2061,
+      "3": 218
+    },
+    "margin_quality": {
+      "0": 324,
+      "1": 1061,
+      "2": 663,
+      "3": 1558
+    },
+    "distribution_efficiency": {
+      "0": 1260,
+      "1": 1009,
+      "2": 974,
+      "3": 363
+    },
+    "startup_capital_intensity": {
+      "0": 1452,
+      "1": 992,
+      "2": 854,
+      "3": 308
+    },
+    "speed_to_first_revenue": {
+      "0": 1068,
+      "1": 1305,
+      "2": 998,
+      "3": 235
+    },
+    "team_model_fit": {
+      "0": 1386,
+      "1": 1077,
+      "2": 1064,
+      "3": 79
+    },
+    "recurring_revenue_potential": {
+      "0": 242,
+      "1": 969,
+      "2": 690,
+      "3": 1705
+    },
+    "owner_independence_potential": {
+      "0": 231,
+      "1": 1658,
+      "2": 1698,
+      "3": 19
+    },
+    "demand_urgency": {
+      "0": 74,
+      "1": 1315,
+      "2": 1890,
+      "3": 327
+    },
+    "non_commodity_differentiation": {
+      "0": 417,
+      "1": 1478,
+      "2": 1682,
+      "3": 29
+    },
+    "ai_automation_leverage": {
+      "0": 260,
+      "1": 1334,
+      "2": 1509,
+      "3": 503
+    },
+    "regulatory_liability_drag": {
+      "0": 677,
+      "1": 1101,
+      "2": 1521,
+      "3": 307
+    }
+  },
+  "model_usage": {
+    "model": "o3",
+    "primary_batches": 0,
+    "retry_batches": 0,
+    "total_requests": 0,
+    "total_tokens_input": 2376519,
+    "total_tokens_output": 3584549,
+    "total_tokens_reasoning": 710724,
+    "estimated_cost_usd": 167.15
+  }
+}

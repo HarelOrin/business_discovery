@@ -151,7 +151,7 @@ The scoring and research layers evaluate every business against this founder pro
 
 - `Source Puller`: no LLM required
 - `Dataset Shaper`: no LLM required (optional embedding model for duplicate-candidate suggestions only — never auto-merge)
-- `AI Scorer`: balanced reasoning model primary; stronger reasoning model only for low-confidence, invalid, or borderline escalation
+- `AI Scorer`: `o3` reasoning model via OpenAI Batch API (batch_size=5); retries with `o3` only
 - `Gate Keeper`: deterministic rules only — no LLM for gate decisions
 - `Research Runner`: balanced reasoning model primary; stronger reasoning model for escalation when 3+ of 8 sections self-report low confidence
 

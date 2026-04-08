@@ -1,0 +1,382 @@
+[
+  {
+    "model": "o3",
+    "is_reasoning": true,
+    "latency_s": 55.3,
+    "input_tokens": 3402,
+    "output_tokens": 5366,
+    "reasoning_tokens": 1728,
+    "visible_output_tokens": 3638,
+    "valid": 5,
+    "total": 5,
+    "results": [
+      {
+        "record_id": "canon_0001",
+        "business_type": ".NET Developers",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 2,
+          "distribution_efficiency": 2,
+          "startup_capital_intensity": 3,
+          "speed_to_first_revenue": 2,
+          "team_model_fit": 1,
+          "recurring_revenue_potential": 1,
+          "owner_independence_potential": 1,
+          "demand_urgency": 1,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 1,
+          "regulatory_liability_drag": 2
+        },
+        "whole_reasoning_len": 761,
+        "summary": "A lean dev agency matches the founder\u2019s budget and remote location but scores only moderate on scalability, differentiation, and eventual owner independence. Viable as a cash-flow business but not out"
+      },
+      {
+        "record_id": "canon_0051",
+        "business_type": "Administration of Air and Water Resource and Solid Waste Management Programs",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 0,
+          "margin_quality": 0,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 0,
+          "speed_to_first_revenue": 0,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 0,
+          "owner_independence_potential": 0,
+          "demand_urgency": 0,
+          "non_commodity_differentiation": 0,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 0
+        },
+        "whole_reasoning_len": 324,
+        "summary": "Essentially not a business opportunity for a private founder; should be discarded immediately."
+      },
+      {
+        "record_id": "canon_0201",
+        "business_type": "All Other Waste Management Services",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 1,
+          "margin_quality": 1,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 0,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 1,
+          "owner_independence_potential": 1,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 1
+        },
+        "whole_reasoning_len": 338,
+        "summary": "Operationally intensive, capital-heavy, and location-bound; conflicts with almost every founder preference. Not recommended."
+      },
+      {
+        "record_id": "canon_0501",
+        "business_type": "Cannabis Industry Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 3,
+          "distribution_efficiency": 2,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 2,
+          "ai_automation_leverage": 2,
+          "regulatory_liability_drag": 2
+        },
+        "whole_reasoning_len": 690,
+        "summary": "Meets many founder criteria: high margins, recurring revenue, digital distribution, and reasonable capital needs. Execution risk and competition are real, but overall a promising direction if the foun"
+      },
+      {
+        "record_id": "canon_1001",
+        "business_type": "Display Ad Design Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 3,
+          "distribution_efficiency": 3,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 1,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 3,
+          "regulatory_liability_drag": 3
+        },
+        "whole_reasoning_len": 552,
+        "summary": "High-margin, remote-friendly SaaS that aligns with founder preferences, but intense competition and modest urgency mean customer acquisition will be the key challenge. Worth exploring only with a shar"
+      }
+    ],
+    "proj_cost_standard": 35.91,
+    "proj_cost_batch": 17.95
+  },
+  {
+    "model": "o3-pro",
+    "error": "Error code: 404 - {'error': {'message': 'Your organization must be verified to use the model `o3-pro`. Please go to: https://platform.openai.com/settings/organization/general and click on Verify Organization. If you just verified, it can take up to 15 minutes for access to propagate.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+    "latency_s": 0.4
+  },
+  {
+    "model": "o1",
+    "is_reasoning": true,
+    "latency_s": 66.0,
+    "input_tokens": 3402,
+    "output_tokens": 8603,
+    "reasoning_tokens": 4544,
+    "visible_output_tokens": 4059,
+    "valid": 5,
+    "total": 5,
+    "results": [
+      {
+        "record_id": "canon_0001",
+        "business_type": ".NET Developers",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 2,
+          "distribution_efficiency": 2,
+          "startup_capital_intensity": 3,
+          "speed_to_first_revenue": 2,
+          "team_model_fit": 3,
+          "recurring_revenue_potential": 1,
+          "owner_independence_potential": 1,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 2,
+          "regulatory_liability_drag": 2
+        },
+        "whole_reasoning_len": 482,
+        "summary": "This can be a good low-cost, service-driven start. The founder can begin as a solo operator but must work on establishing recurring contracts or scaling a small development team to achieve partial own"
+      },
+      {
+        "record_id": "canon_0051",
+        "business_type": "Administration of Air and Water Resource and Solid Waste Management Programs",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 0,
+          "margin_quality": 0,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 0,
+          "speed_to_first_revenue": 0,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 0,
+          "owner_independence_potential": 0,
+          "demand_urgency": 0,
+          "non_commodity_differentiation": 0,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 0
+        },
+        "whole_reasoning_len": 282,
+        "summary": "This is not a viable business for a private founder. It scores poorly on all business metrics since it is strictly a government administrative function and lacks a standard commercial path."
+      },
+      {
+        "record_id": "canon_0201",
+        "business_type": "All Other Waste Management Services",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 1,
+          "margin_quality": 1,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 0,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 1,
+          "owner_independence_potential": 1,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 0,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 0
+        },
+        "whole_reasoning_len": 396,
+        "summary": "Local waste services are capital-intensive, regulated, and require physical operations. This conflicts with the founder\u2019s remote, high-margin, smaller-scale vision. Overall, this business type does no"
+      },
+      {
+        "record_id": "canon_0501",
+        "business_type": "Cannabis Industry Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 3,
+          "distribution_efficiency": 2,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 2,
+          "ai_automation_leverage": 2,
+          "regulatory_liability_drag": 1
+        },
+        "whole_reasoning_len": 544,
+        "summary": "Cannabis software aligns with the founder\u2019s goal for a high-margin, potentially scalable digital business. Industry-specific regulations add complexity, slowing time to market, but the recurring reven"
+      },
+      {
+        "record_id": "canon_1001",
+        "business_type": "Display Ad Design Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 3,
+          "distribution_efficiency": 3,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 2,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 1,
+          "non_commodity_differentiation": 2,
+          "ai_automation_leverage": 3,
+          "regulatory_liability_drag": 3
+        },
+        "whole_reasoning_len": 499,
+        "summary": "Display ad design software can be built and distributed digitally from anywhere, with potential for strong margins and subscription revenue. However, the space is competitive, so meaningful differenti"
+      }
+    ],
+    "proj_cost_standard": 409.53,
+    "proj_cost_batch": 204.76
+  },
+  {
+    "model": "gpt-4.1",
+    "is_reasoning": false,
+    "latency_s": 27.5,
+    "input_tokens": 3403,
+    "output_tokens": 3625,
+    "reasoning_tokens": 0,
+    "visible_output_tokens": 3625,
+    "valid": 5,
+    "total": 5,
+    "results": [
+      {
+        "record_id": "canon_0001",
+        "business_type": ".NET Developers",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 1,
+          "distribution_efficiency": 2,
+          "startup_capital_intensity": 3,
+          "speed_to_first_revenue": 3,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 1,
+          "owner_independence_potential": 1,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 2,
+          "regulatory_liability_drag": 3
+        },
+        "whole_reasoning_len": 909,
+        "summary": "This business is easy to start and can generate revenue quickly, but faces strong price competition and limited recurring revenue. It is a reasonable fit for a first-time founder in Jerusalem, but sca"
+      },
+      {
+        "record_id": "canon_0051",
+        "business_type": "Administration of Air and Water Resource and Solid Waste Management Programs",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 0,
+          "margin_quality": 0,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 0,
+          "speed_to_first_revenue": 0,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 0,
+          "owner_independence_potential": 0,
+          "demand_urgency": 0,
+          "non_commodity_differentiation": 0,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 0
+        },
+        "whole_reasoning_len": 465,
+        "summary": "This is not a viable business for a private founder. It is a government function and cannot be pursued as a startup or private enterprise."
+      },
+      {
+        "record_id": "canon_0201",
+        "business_type": "All Other Waste Management Services",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 1,
+          "margin_quality": 1,
+          "distribution_efficiency": 0,
+          "startup_capital_intensity": 1,
+          "speed_to_first_revenue": 1,
+          "team_model_fit": 0,
+          "recurring_revenue_potential": 2,
+          "owner_independence_potential": 1,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 0,
+          "regulatory_liability_drag": 1
+        },
+        "whole_reasoning_len": 666,
+        "summary": "This business is not a good fit for a remote founder in Jerusalem due to operational intensity, regulatory burden, and the need for local logistics. Margins and differentiation are weak, and startup c"
+      },
+      {
+        "record_id": "canon_0501",
+        "business_type": "Cannabis Industry Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 3,
+          "margin_quality": 3,
+          "distribution_efficiency": 3,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 2,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 2,
+          "non_commodity_differentiation": 2,
+          "ai_automation_leverage": 2,
+          "regulatory_liability_drag": 1
+        },
+        "whole_reasoning_len": 768,
+        "summary": "This is a strong fit for a founder seeking high-margin, scalable, and remote-friendly business with recurring revenue. The main challenges are regulatory complexity and the need for deep industry unde"
+      },
+      {
+        "record_id": "canon_1001",
+        "business_type": "Display Ad Design Software",
+        "valid": true,
+        "errors": [],
+        "scores": {
+          "market_headroom": 2,
+          "margin_quality": 3,
+          "distribution_efficiency": 3,
+          "startup_capital_intensity": 2,
+          "speed_to_first_revenue": 2,
+          "team_model_fit": 2,
+          "recurring_revenue_potential": 3,
+          "owner_independence_potential": 2,
+          "demand_urgency": 1,
+          "non_commodity_differentiation": 1,
+          "ai_automation_leverage": 3,
+          "regulatory_liability_drag": 3
+        },
+        "whole_reasoning_len": 750,
+        "summary": "This business is a strong fit for a remote founder seeking high-margin, scalable, and recurring-revenue opportunities. The main challenge is standing out in a crowded market, but the economics and ope"
+      }
+    ],
+    "proj_cost_standard": 25.85,
+    "proj_cost_batch": 12.93
+  }
+]

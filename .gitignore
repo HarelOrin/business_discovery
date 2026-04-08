@@ -1,0 +1,5 @@
+.env
+data/output/scoring_progress.db
+data/output/dataset_shaper.db
+__pycache__/
+*.pyc

@@ -38,14 +38,24 @@ The prompt encodes:
 - Strict JSON output schema
 - Classification fields (business_model_archetype, primary_customer_type, revenue_model)
 
-## Model Strategy
+## Model Strategy — LOCKED (Updated after benchmark + shootout testing)
 
-- Primary: `gpt-4o` via OpenAI API (JSON mode)
-- Batch size: 20 businesses per API call (~181 batches total)
-- Retry: up to 2 retries with primary model, then 1 escalation attempt
-- Escalation: `gpt-4o` with temperature=0 or stronger model if available
-- Estimated cost: $5-15 for full run
-- Estimated runtime: 45-90 minutes
+- Model: `o3` via OpenAI Batch API (JSON mode)
+- Batch size: 5 businesses per API call (~722 batches total)
+- API method: Batch API (async, 50% cost reduction, no timeout risk)
+- Retry: up to 2 retries with `o3` for failed/invalid records
+- Estimated cost: ~$18 (Batch API pricing)
+- Estimated runtime: submit once, results within 24 hours (no machine uptime required)
+
+### Model Selection Evidence
+
+Benchmark tested gpt-4.1, gpt-4.1-mini, gpt-4.1-nano across batch sizes 5/10/20.
+Shootout tested o3, o1, o4-mini, gpt-4o, gpt-4.1 head-to-head on same 5 diverse businesses.
+Results stored in `data/output/benchmark_results.json` and `data/output/model_shootout_results.json`.
+
+Key finding: o3 produced the most conservative and realistic calibration on edge cases.
+o1 was 15x more expensive with no quality improvement.
+Prompt improvements (middle anchors, calibration baseline, geographic weight) had larger accuracy impact than any model change.
 
 ## Sub-part Execution Order
 
@@ -99,6 +109,5 @@ Pass only if scoring output is complete and schema-valid across all 3,606 record
 ## On Failure
 
 - fix scoring prompt/validator path
-- rerun failed subset or full batch
-- escalate persistent failures to stronger model
+- rerun failed subset or full batch with `o3`
 - regenerate validation report

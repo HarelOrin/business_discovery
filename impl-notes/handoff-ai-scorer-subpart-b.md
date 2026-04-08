@@ -18,45 +18,40 @@ Execute the full scoring run across all 3,606 canonical business types using the
 
 ## Required Work
 
-### 1. Full Primary Run
+### 1. Full Primary Run (Batch API)
 
-- Execute: `python src/ai_scorer/score_businesses.py`
-- Processes all ~181 batches (3,606 records / 20 per batch)
-- Progress logging every batch: batch number, cumulative scored count, failure count, elapsed time
-- Periodic summary every 20 batches: success rate, average scores, cost estimate so far
-- Resume-safe: if interrupted, restart picks up from last incomplete batch
+- Prepare JSONL batch file with all 722 requests (3,606 records / 5 per batch)
+- Each line: `{"custom_id": "batch_001", "method": "POST", "url": "/v1/chat/completions", "body": {...}}`
+- Primary model: `o3` (reasoning model — use `role: "developer"` instead of `role: "system"`)
+- Upload batch file and submit batch job via `client.batches.create()`
+- Poll for completion via `client.batches.retrieve()` (or check back manually)
+- Download results file when status is "completed"
+- Parse results, validate each response, persist to SQLite
 
 ### 2. Retry Pass
 
-- After primary run completes, identify all failed/invalid records from SQLite
-- Re-batch failed records (batch size 10 for retry — smaller batches for problem cases)
-- Retry with primary model (gpt-4o), up to 2 additional attempts per record
-- Log retry results
+- After primary batch completes, identify all failed/invalid records
+- Re-batch failed records (batch size 5 for retry — same structure)
+- Submit as a new Batch API job with `o3`
+- Up to 2 retry passes total
 
-### 3. Escalation Pass
+### 3. Results Collection
 
-- After retry pass, any records still failed or with majority low-confidence metrics
-- Re-batch these for escalation model (e.g., `gpt-4o` with temperature=0 for more deterministic output, or a stronger model if available)
-- Mark escalated records in SQLite
-- Maximum 1 escalation attempt per record
-
-### 4. Progress Monitoring
-
-- Track and log:
+- Track and log (from batch results):
   - Total records: 3,606
   - Scored successfully: N
   - Failed after all retries: N
-  - Escalated: N
   - Low-confidence (3+ metrics with "low" confidence): N
-  - Average token usage per batch
-  - Estimated total cost so far
+  - Total token usage (input, output, reasoning/thinking)
+  - Actual cost from token counts
 
 ## Execution Estimates
 
-- ~181 batches for primary run
-- At ~15-30 seconds per batch (API latency + rate limiting): ~45-90 minutes
-- Retry + escalation: additional 5-15 minutes depending on failure count
-- Total cost estimate: $5-15
+- ~722 batches for primary run (5 records per batch)
+- Batch API processes asynchronously — results within 24 hours
+- No machine uptime required during processing
+- Retry passes: additional Batch API jobs if needed (hours, not minutes)
+- Total cost estimate: ~$18 (Batch API pricing for o3)
 
 ## Output Artifacts
 
@@ -68,16 +63,15 @@ Execute the full scoring run across all 3,606 canonical business types using the
 - SQLite contains scored results for all 3,606 records (or documented failures)
 - No batch left in "in_progress" state
 - Retry queue processed
-- Escalation queue processed (if any)
-- Run summary printed: total scored, total failed, total escalated
+- Run summary printed: total scored, total failed
 
 ## Pass Gate
 
-Sub-part B passes when all batches are processed (primary + retry + escalation) and the scoring_progress.db contains results for 3,606 records (minus any documented permanent failures). Proceed to Sub-part C only after this.
+Sub-part B passes when all batches are processed (primary + retry) and the scoring_progress.db contains results for 3,606 records (minus any documented permanent failures). Proceed to Sub-part C only after this.
 
 ## On Failure
 
-- If many batches fail: inspect error patterns — likely a prompt issue or rate limiting
-- If rate limited heavily: add longer delays between batches (e.g., 2-5 second sleep)
+- If batch job fails entirely: check batch status error message, re-upload and resubmit
+- If many individual requests fail within batch: inspect error patterns in result file — likely a prompt issue
 - If cost exceeds budget: pause, report to founder, get approval before continuing
-- If API outage: resume later — SQLite tracking enables safe restart
+- Batch API handles rate limiting automatically — no manual throttling needed

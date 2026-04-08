@@ -20,6 +20,17 @@ FOUNDER CONTEXT:
 - Extremely high work ethic and adaptability; willing to learn and grind through early phases
 - Values some work-life balance during the journey, not only at the destination
 
+GEOGRAPHIC CONTEXT (apply across all metrics, not just market_headroom):
+- The founder will operate remotely from Jerusalem. Businesses requiring physical US/EU presence, local logistics, or in-person customer relationships score lower on distribution_efficiency, startup_capital_intensity, and team_model_fit.
+- Businesses that can be run digitally from anywhere score normally.
+- Israel has a strong tech ecosystem but a small domestic market; businesses targeting global or English-speaking markets are more viable than those dependent on local demand.
+
+## Calibration Guidance
+
+EXPECTED SCORE DISTRIBUTION: Most business types should land in the 1-2 range on most metrics. A score of 3 (Strong) means genuinely exceptional on that dimension — not just "good" or "above average." A score of 0 (Weak) means a clear disqualifier or near-total absence. Be rigorous: do not default to 2 when uncertain — use 1 if the evidence is mixed or thin.
+
+WHEN DEFINITION IS NULL: If no definition is provided for a business type, state your interpretation of what this business type means in the whole_business_reasoning before scoring. Score based on that interpretation. If the business type name is genuinely ambiguous, mark affected metrics as "low" confidence.
+
 ## Scoring Metrics
 
 Score each business type on 12 metrics using a 0-3 scale:
@@ -27,41 +38,89 @@ Score each business type on 12 metrics using a 0-3 scale:
 
 TIER 1 — FLOOR GATES (most important — a business must score well here to be viable):
 
-1. market_headroom: How large and growing is the addressable market? Is there room for a new entrant to capture meaningful share? Consider global and Israel/Middle East market dynamics. 0=tiny/saturated/declining. 3=huge TAM, growing demand, plenty of room.
+1. market_headroom: How large and growing is the addressable market? Is there room for a new entrant to capture meaningful share?
+   0 = Weak: tiny niche, saturated, or declining market; no realistic room for a new entrant.
+   1 = Emerging: modest market with limited growth, or large market that is heavily saturated; room exists but is narrow.
+   2 = Solid: meaningful TAM with steady growth; a capable entrant can carve out share despite competition.
+   3 = Strong: huge and expanding TAM with clear gaps; plenty of room for new players.
 
-2. margin_quality: What gross and net margins are typical? Does unit economics support healthy profit? 0=razor-thin commodity margins. 3=consistently high margins (60%+ gross).
+2. margin_quality: What gross and net margins are typical? Does unit economics support healthy profit?
+   0 = Weak: razor-thin commodity margins (<20% gross); price pressure dominates.
+   1 = Emerging: modest margins (20-40% gross); profitable but tight, sensitive to cost fluctuations.
+   2 = Solid: healthy margins (40-60% gross); sustainable unit economics with reasonable pricing power.
+   3 = Strong: consistently high margins (60%+ gross); strong pricing power and favorable cost structure.
 
-3. distribution_efficiency: How easily can this business reach and acquire customers? Are there scalable digital channels, or does it require expensive high-touch sales? 0=requires costly enterprise sales or physical presence. 3=digital-first, scalable, low CAC.
+3. distribution_efficiency: How easily can this business reach and acquire customers from Jerusalem, Israel? Are there scalable digital channels, or does it require expensive high-touch sales or local presence?
+   0 = Weak: requires costly enterprise sales, physical storefront, or geographic presence the founder doesn't have.
+   1 = Emerging: some digital channels exist but customer acquisition still requires significant outbound effort or local relationships.
+   2 = Solid: primarily digital acquisition channels; moderate CAC; can reach target customers remotely.
+   3 = Strong: digital-first, inbound-friendly, low CAC; geography is irrelevant to customer acquisition.
 
 TIER 2 — HIGH PRIORITY (strongly shapes overall fit):
 
-4. startup_capital_intensity: How much upfront capital is needed to launch? Evaluate against a ~$40K budget. INVERSE: lower capital = higher score. 0=requires heavy capital ($100K+). 3=can launch with minimal capital (<$10K).
+4. startup_capital_intensity: How much upfront capital is needed to launch? Evaluate against the founder's ~$40K budget. INVERSE: lower capital = higher score.
+   0 = Weak: requires heavy capital ($100K+); far exceeds budget.
+   1 = Emerging: requires moderate capital ($40-100K); stretches or exceeds budget.
+   2 = Solid: manageable startup costs ($10-40K); within budget with some runway.
+   3 = Strong: minimal capital needed (<$10K); mostly time and skill investment.
 
-5. speed_to_first_revenue: How quickly can this generate first revenue after launch? 0=years before revenue. 3=revenue within weeks to a few months.
+5. speed_to_first_revenue: How quickly can this generate first paying customer after launch?
+   0 = Weak: 1+ years before meaningful revenue; long development/certification/build cycles.
+   1 = Emerging: 6-12 months to first revenue; significant upfront work before selling.
+   2 = Solid: 2-6 months to first revenue; moderate ramp-up period.
+   3 = Strong: revenue within weeks to 2 months; can start selling almost immediately.
 
-6. team_model_fit: Can a solo founder or small team run this? Or does it inherently need large headcount? 0=requires large teams. 3=solo-operable or small team of skilled people.
+6. team_model_fit: Can a solo founder or small team run this from Jerusalem? Or does it inherently need large headcount or on-site staff?
+   0 = Weak: requires large teams, specialized staff, or physical labor force.
+   1 = Emerging: needs a small team from the start; solo founder would struggle to deliver.
+   2 = Solid: solo-launchable with plans to add 1-3 people as it grows; manageable workload.
+   3 = Strong: naturally solo-operable or small team of skilled remote professionals; no headcount scaling required.
 
-7. recurring_revenue_potential: Does the natural model support recurring/subscription revenue? 0=purely one-time transactions. 3=naturally recurring (subscriptions, retainers, ongoing services).
+7. recurring_revenue_potential: Does the natural business model support recurring or subscription revenue?
+   0 = Weak: purely one-time transactions; no natural repeat purchase.
+   1 = Emerging: some repeat business possible but not structural; depends on upselling or re-engagement.
+   2 = Solid: natural retention dynamics (retainers, repeat contracts, consumables) but not pure subscription.
+   3 = Strong: naturally recurring (subscriptions, SaaS, ongoing managed services); high LTV by default.
 
-8. owner_independence_potential: Can this business eventually run without the founder being hands-on daily? Can operations be systematized, delegated, or automated over 5-10 years? 0=founder is permanently the product/bottleneck. 3=highly systematizable, can be owner-operated part-time at maturity.
+8. owner_independence_potential: Can this business eventually run without the founder being hands-on daily? Can operations be systematized, delegated, or automated over 5-10 years?
+   0 = Weak: founder IS the product permanently; personal expertise cannot be separated from delivery.
+   1 = Emerging: founder is central early on; some delegation possible but core value stays tied to founder for years.
+   2 = Solid: operations can be systematized over time; founder can step back to oversight within 5 years with the right team or systems.
+   3 = Strong: highly systematizable from the start; processes, technology, or team structure naturally support owner independence.
 
 TIER 3 — IMPORTANT SIGNAL:
 
-9. demand_urgency: How urgent is the customer need? Pull demand vs. push demand? 0=nice-to-have, heavy evangelism needed. 3=customers actively searching, acute pain.
+9. demand_urgency: How urgent is the customer need? Pull demand vs. push demand?
+   0 = Weak: nice-to-have; heavy evangelism needed to convince customers they need this.
+   1 = Emerging: recognized need but low priority; customers buy when convenient, not urgently.
+   2 = Solid: clear pain point; customers actively budget for this but may comparison-shop at leisure.
+   3 = Strong: acute, time-sensitive pain; customers actively searching and willing to pay quickly.
 
-10. non_commodity_differentiation: Can a new entrant differentiate meaningfully? 0=pure commodity, no differentiation. 3=rich differentiation via expertise, technology, niche, or brand.
+10. non_commodity_differentiation: Can a new entrant differentiate meaningfully, or is this a race to the bottom on price?
+   0 = Weak: pure commodity; no realistic differentiation lever.
+   1 = Emerging: slight differentiation possible (branding, niche focus) but market mostly competes on price.
+   2 = Solid: meaningful differentiation through expertise, specialization, technology, or positioning.
+   3 = Strong: rich differentiation landscape; expertise, technology, or niche positioning creates defensible value.
 
-11. ai_automation_leverage: How much of the core operations or delivery can be enhanced/automated with AI? 0=inherently manual/physical. 3=substantial AI-augmentation potential.
+11. ai_automation_leverage: How much of the core operations or delivery can be enhanced or automated with current AI capabilities?
+   0 = Weak: inherently manual, physical, or relationship-driven; AI adds minimal value.
+   1 = Emerging: some peripheral tasks can be AI-assisted but core delivery remains manual.
+   2 = Solid: significant portions of delivery or operations can be AI-augmented, improving efficiency.
+   3 = Strong: AI can transform core delivery or operations; substantial competitive advantage from AI adoption.
 
-INFORMATIONAL (score honestly, but this metric is tracked separately):
+INFORMATIONAL (score honestly, but this metric is tracked separately and does not affect gating):
 
-12. regulatory_liability_drag: How much regulatory burden and legal liability? INVERSE: less regulation = higher score. 0=heavily regulated, high liability. 3=minimal regulation.
+12. regulatory_liability_drag: How much regulatory burden and legal liability does this business face? INVERSE: less regulation = higher score.
+   0 = Weak: heavily regulated industry; licenses, compliance, and legal liability are major ongoing costs.
+   1 = Emerging: moderate regulation; some compliance requirements but manageable for a small operator.
+   2 = Solid: light regulation; standard business compliance only.
+   3 = Strong: minimal to no specific regulation beyond basic business registration.
 
 ## Scoring Rules
 
-1. REASONING ORDER (mandatory): First, write a "whole_business_reasoning" paragraph that evaluates the business type holistically against the founder profile — consider the market, the economics, the operational model, and the founder's specific situation (Jerusalem, $40K capital, first-time, 5-10 year vision). THEN assign individual metric scores that flow from this holistic reasoning.
+1. REASONING ORDER (mandatory): First, write a "whole_business_reasoning" paragraph that evaluates the business type holistically against the founder profile — consider the market, the economics, the operational model, and the founder's specific situation (Jerusalem, $40K capital, first-time, 5-10 year vision). If the definition is null, state what you interpret this business type to be. THEN assign individual metric scores that flow from this holistic reasoning.
 
-2. For each metric: provide a score (0-3), a 1-2 sentence reasoning that MUST include the verbal rank label (Weak/Emerging/Solid/Strong), and a confidence level (low/medium/high). Use "low" confidence when the business type is ambiguous or you lack strong knowledge about it.
+2. For each metric: provide a score (0-3), a 1-2 sentence reasoning that MUST include the verbal rank label (Weak/Emerging/Solid/Strong), and a confidence level (low/medium/high). Use "low" confidence when the business type is ambiguous, when you lack strong knowledge about its economics, or when the business type name could refer to multiple distinct business models.
 
 3. Also classify: business_model_archetype (e.g., "SaaS", "marketplace", "agency", "consulting", "e-commerce", "productized service", etc.), primary_customer_type (e.g., "B2B SMB", "B2B Enterprise", "B2C", "B2B2C", etc.), and revenue_model (e.g., "subscription", "project-based", "transaction fee", "retainer", "license", etc.). Use your best judgment.
 

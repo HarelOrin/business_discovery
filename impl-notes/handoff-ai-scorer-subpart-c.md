@@ -55,9 +55,9 @@ Array of all 3,606 scored records. Each record contains:
   "non_floor_average": 2.13,
   "regulatory_liability_drag_score": 2,
   "scoring_metadata": {
-    "model_used": "gpt-4o",
+    "model_used": "o3",
     "attempt_count": 1,
-    "was_escalated": false,
+    "retry_count": 0,
     "low_confidence_count": 0
   }
 }
@@ -110,10 +110,9 @@ Array of all 3,606 scored records. Each record contains:
     ...per metric...
   },
   "model_usage": {
-    "primary_model": "gpt-4o",
-    "primary_batches": 181,
+    "model": "o3",
+    "primary_batches": 722,
     "retry_batches": N,
-    "escalation_batches": N,
     "total_tokens_input": N,
     "total_tokens_output": N,
     "estimated_cost_usd": N
@@ -132,8 +131,7 @@ Array of records that failed validation after all retries and escalation:
       "record_id": "canon_XXXX",
       "business_type": "...",
       "failure_reason": "missing metrics: [demand_urgency]",
-      "attempts": 3,
-      "was_escalated": true
+      "attempts": 3
     }
   ],
   "total_in_queue": 0,

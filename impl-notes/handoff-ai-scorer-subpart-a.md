@@ -13,39 +13,49 @@ Build the core scoring infrastructure: LLM client, batch manager, response parse
 
 ## Pre-requisites
 
-- OpenAI API key set as environment variable `OPENAI_API_KEY`
-- `openai` Python package installed (add to `requirements.txt`)
+- OpenAI API key in `.env` file at project root (`OPENAI_API_KEY=...`), loaded via `python-dotenv`
+- `openai` and `python-dotenv` packages installed (already in `requirements.txt`)
 
 ## Required Work
 
-### 1. LLM Client (`src/ai_scorer/llm_client.py`)
+### 1. LLM Client (`src/ai_scorer/llm_client.py`) — PARTIALLY BUILT
 
-- OpenAI API wrapper using `gpt-4o` as primary model
+Existing implementation at `src/ai_scorer/llm_client.py` (standard API mode).
+Must be refactored/extended to support OpenAI Batch API workflow:
+
+- Batch API file preparation (JSONL format with custom_id per request)
+- Batch job submission via `client.batches.create()`
+- Batch status polling via `client.batches.retrieve()`
+- Result file download and parsing
+- Model: `o3` (reasoning model — use `role: "developer"` instead of `role: "system"`)
 - JSON mode enabled (`response_format={"type": "json_object"}`)
-- Retry logic: exponential backoff, max 3 retries per API call
-- Rate limit handling (respect 429 responses)
-- Timeout handling (120s per call)
-- Escalation model support: accept model name as parameter for rerun/escalation calls
-- Log token usage per call for cost tracking
+- Log token usage from batch results for cost tracking
 
-### 2. Batch Manager (`src/ai_scorer/batch_manager.py`)
+### 2. Batch Manager (`src/ai_scorer/batch_manager.py`) — PARTIALLY BUILT
+
+Existing implementation handles dataset loading, batching, SQLite tracking, and resume.
+Review and adapt for Batch API workflow (tracking batch job IDs instead of real-time status).
 
 - Load canonical dataset from JSON
-- Split into batches of 20 records each
+- Split into batches of 5 records each
 - SQLite tracking table (`data/output/scoring_progress.db`):
   - `batch_id`, `record_ids` (JSON array), `status` (pending/in_progress/completed/failed), `attempt_count`, `created_at`, `completed_at`
 - Resume support: on restart, skip completed batches and retry failed/pending ones
 - Per-record tracking table:
   - `record_id`, `batch_id`, `scoring_status` (pending/scored/failed/escalated), `attempt_count`
 
-### 3. Response Parser (`src/ai_scorer/response_parser.py`)
+### 3. Response Parser (`src/ai_scorer/response_parser.py`) — PARTIALLY BUILT
+
+Existing implementation handles JSON parsing and record mapping. Review for compatibility with Batch API result format.
 
 - Parse JSON response from LLM
 - Extract each scored business from the `scored_businesses` array
 - Map back to original `record_id` to confirm all batch items are present
 - Handle malformed JSON gracefully (log error, mark batch as failed)
 
-### 4. Response Validator (`src/ai_scorer/response_validator.py`)
+### 4. Response Validator (`src/ai_scorer/response_validator.py`) — BUILT
+
+Existing implementation is complete and tested. Validates all 12 metrics, scores, labels, confidence, summaries.
 
 - Per-business validation:
   - All 12 metrics present
@@ -58,21 +68,24 @@ Build the core scoring infrastructure: LLM client, batch manager, response parse
 - Return: list of validation errors per record, or empty list if valid
 - Records with validation errors → flagged for rerun queue
 
-### 5. Main Orchestrator Entry Point (`src/ai_scorer/score_businesses.py`)
+### 5. Main Orchestrator Entry Point (`src/ai_scorer/score_businesses.py`) — NEEDS REFACTOR
 
-- CLI entry point
-- Argument: `--test` flag to run only 1 batch (first 20 records) for validation
-- Argument: `--batch-size` (default 20)
-- Argument: `--model` (default "gpt-4o")
+Existing implementation uses real-time sequential API calls. Must be refactored for Batch API workflow:
+
+- CLI commands: `prepare` (build + upload JSONL batch), `check` (poll status), `download` (fetch + parse + validate results)
+- Or a single `submit` command that prepares and uploads, and a `collect` command that downloads and processes
+- Model: `o3` only (no escalation model)
+- Batch size: 5 records per request
 - Loads prompts from file system
 - Coordinates: batch_manager → llm_client → response_parser → response_validator
-- Writes validated results to SQLite as they complete (not just at the end)
-- Progress logging: "Batch 3/181 complete — 60 records scored — 0 failures"
+- Writes validated results to SQLite after downloading batch results
 
 ### 6. Test Run
 
-- Execute `python src/ai_scorer/score_businesses.py --test`
-- Confirm: API call succeeds, JSON parses, all 20 businesses validated, results written to SQLite
+- Submit a small test batch (1 request = 5 records) via Batch API
+- Wait for completion (or poll)
+- Download and validate results
+- Confirm: 5 businesses scored, validated, persisted to SQLite
 - Print sample scored record to console for visual inspection
 
 ## Output Artifacts
@@ -83,13 +96,13 @@ Build the core scoring infrastructure: LLM client, batch manager, response parse
 - `src/ai_scorer/response_validator.py`
 - `src/ai_scorer/score_businesses.py`
 - `src/ai_scorer/__init__.py`
-- Updated `requirements.txt` (add `openai>=1.0.0`)
+- `requirements.txt` already updated (`openai>=1.0.0`, `python-dotenv>=1.0.0`)
 - Test run output in `data/output/scoring_progress.db`
 
 ## Verify
 
-- `--test` run completes without error
-- 20 businesses scored with all 12 metrics
+- Test batch submitted, completed, downloaded, and validated without error
+- 5 businesses scored with all 12 metrics
 - All scores in 0-3 range
 - Verbal rank labels present in all reasoning
 - Confidence labels present
@@ -99,7 +112,7 @@ Build the core scoring infrastructure: LLM client, batch manager, response parse
 
 ## Pass Gate
 
-Sub-part A passes when the test batch (20 businesses) is fully scored, validated, and persisted. Only then proceed to Sub-part B (full batch execution).
+Sub-part A passes when a test batch (5 businesses) is fully scored via Batch API, validated, and persisted. Only then proceed to Sub-part B (full batch execution).
 
 ## On Failure
 
