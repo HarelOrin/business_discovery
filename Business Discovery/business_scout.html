@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Scout</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f13; color: #e8e8f0; min-height: 100vh; }
+
+  /* ── Layout ── */
+  #app { display: flex; flex-direction: column; height: 100vh; max-width: 1020px; margin: 0 auto; }
+  #header { padding: 14px 24px 0; flex-shrink: 0; }
+  #content { flex: 1; overflow-y: auto; padding: 0 12px 20px; }
+
+  /* ── Queue side-button layout ── */
+  .queue-wrap { display: flex; gap: 10px; align-items: stretch; }
+  .queue-center { flex: 1; min-width: 0; }
+  .btn-side { width: 68px; flex-shrink: 0; border-radius: 16px; font-size: 13px; font-weight: 700; cursor: pointer; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; transition: all 0.15s; letter-spacing: 0.3px; }
+  .btn-side-discard { background: #2a1515; border: 1px solid #4a2020; color: #f87171; }
+  .btn-side-discard:hover { background: #3a1a1a; border-color: #ef4444; }
+  .btn-side-keep { background: #112a1a; border: 1px solid #1a4a28; color: #4ade80; }
+  .btn-side-keep:hover { background: #162e1e; border-color: #22c55e; }
+  .btn-side-icon { font-size: 24px; }
+
+  /* ── Header ── */
+  .logo { font-size: 18px; font-weight: 700; color: #a78bfa; letter-spacing: -0.3px; }
+  .nav { display: flex; gap: 4px; margin-top: 10px; border-bottom: 1px solid #222; }
+  .nav-btn { padding: 8px 16px; font-size: 13px; font-weight: 600; border: none; background: none; color: #888; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s; }
+  .nav-btn.active { color: #a78bfa; border-bottom-color: #a78bfa; }
+  .nav-btn:hover:not(.active) { color: #ccc; }
+  .count-badge { display: inline-flex; align-items: center; justify-content: center; background: #2d2d3a; color: #a78bfa; border-radius: 10px; font-size: 10px; font-weight: 700; min-width: 18px; height: 18px; padding: 0 5px; margin-left: 5px; }
+
+  /* ── Progress Bar ── */
+  .progress-wrap { margin: 14px 0 6px; }
+  .progress-bar-bg { background: #1e1e2a; border-radius: 4px; height: 5px; overflow: hidden; }
+  .progress-bar-fill { height: 100%; background: linear-gradient(90deg, #7c3aed, #a78bfa); border-radius: 4px; transition: width 0.4s ease; }
+  .progress-label { font-size: 11px; color: #666; margin-top: 5px; }
+
+  /* ── Card ── */
+  .card { background: #17171f; border: 1px solid #252530; border-radius: 16px; padding: 22px; margin-top: 14px; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .business-name { font-size: 20px; font-weight: 700; color: #f0f0fa; line-height: 1.2; }
+  .score-badge { flex-shrink: 0; display: flex; flex-direction: column; align-items: center; background: #1e1e2a; border-radius: 10px; padding: 8px 12px; min-width: 56px; }
+  .score-num { font-size: 22px; font-weight: 800; line-height: 1; }
+  .score-label { font-size: 9px; color: #666; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .score-high { color: #fbbf24; }
+  .score-mid { color: #a78bfa; }
+  .auto-badge { display: inline-block; background: #78350f; color: #fbbf24; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; margin-top: 6px; }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+  .tag { background: #1e1e2a; border: 1px solid #2d2d3a; color: #9090b0; font-size: 11px; padding: 3px 9px; border-radius: 20px; }
+  .tag.arch { border-color: #3d2d6a; color: #c4b5fd; }
+
+  .summary { font-size: 14px; line-height: 1.6; color: #c0c0d8; margin-top: 4px; }
+
+  /* ── Details (always visible) ── */
+  .details { margin-top: 14px; }
+
+  .reasoning { font-size: 13px; color: #a0a0b8; line-height: 1.65; background: #12121a; border-left: 3px solid #2d2d4a; border-radius: 0 8px 8px 0; padding: 12px 14px; margin-bottom: 16px; }
+
+  /* ── Metrics Grid ── */
+  .metrics-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #555; margin-bottom: 10px; }
+  .metrics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .metric-item { background: #12121a; border-radius: 10px; padding: 10px 12px; }
+  .metric-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+  .metric-name { font-size: 11px; color: #888; text-transform: capitalize; }
+  .metric-score { font-size: 12px; font-weight: 700; }
+  .metric-score.s3 { color: #34d399; }
+  .metric-score.s2 { color: #a78bfa; }
+  .metric-score.s1 { color: #f59e0b; }
+  .metric-score.s0 { color: #ef4444; }
+  .metric-dots { display: flex; gap: 3px; margin-bottom: 5px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #2d2d3a; }
+  .dot.filled.s3 { background: #34d399; }
+  .dot.filled.s2 { background: #a78bfa; }
+  .dot.filled.s1 { background: #f59e0b; }
+  .dot.filled.s0 { background: #ef4444; }
+  .metric-reason { font-size: 10.5px; color: #606078; line-height: 1.4; }
+  .metric-floor { border: 1px solid #3d2d6a; }
+
+  /* ── Back button ── */
+  .btn-back { background: #1e1e2a; border: 1px solid #2d2d3a; color: #666; padding: 6px 12px; border-radius: 8px; font-size: 12px; cursor: pointer; display: flex; align-items: center; gap: 4px; transition: all 0.15s; }
+  .btn-back:hover:not(:disabled) { border-color: #a78bfa; color: #a78bfa; }
+  .btn-back:disabled { opacity: 0.35; cursor: not-allowed; }
+
+  /* ── Empty state ── */
+  .empty { text-align: center; padding: 60px 20px; }
+  .empty-icon { font-size: 48px; margin-bottom: 16px; }
+  .empty-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+  .empty-sub { font-size: 14px; color: #666; }
+
+  /* ── List views (Approved / Denied) ── */
+  .list-header { display: flex; justify-content: space-between; align-items: center; margin: 16px 0 10px; }
+  .list-title { font-size: 14px; font-weight: 700; color: #888; }
+  .btn-export { background: #1a2a1a; border: 1px solid #1a4a28; color: #4ade80; font-size: 12px; padding: 6px 14px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+  .btn-export:hover { background: #162e1e; }
+  .list-item { background: #17171f; border: 1px solid #252530; border-radius: 12px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s; }
+  .list-item:hover { border-color: #3d3d5a; }
+  .list-item-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .list-item-name { font-size: 14px; font-weight: 700; color: #e0e0f0; }
+  .list-item-meta { font-size: 11px; color: #666; margin-top: 3px; }
+  .list-item-score { font-size: 13px; font-weight: 700; }
+  .list-item-actions { display: flex; gap: 6px; margin-top: 8px; }
+  .btn-restore { background: #1e2a1e; border: 1px solid #2a4a2a; color: #4ade80; font-size: 11px; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+  .btn-remove { background: #2a1a1a; border: 1px solid #4a2a2a; color: #f87171; font-size: 11px; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+  .list-item-detail { display: none; margin-top: 10px; font-size: 12px; color: #8888a8; line-height: 1.5; }
+  .list-item-detail.open { display: block; }
+
+  /* ── Loading ── */
+  #loading { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; gap: 16px; }
+  .spinner { width: 36px; height: 36px; border: 3px solid #2d2d3a; border-top-color: #a78bfa; border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #error-msg { color: #f87171; text-align: center; padding: 40px; }
+
+  /* ── Reg drag pill ── */
+  .reg-pill { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; padding: 2px 8px; border-radius: 20px; border: 1px solid #2d2d3a; color: #888; }
+  .reg-pill.low { border-color: #1a4a28; color: #4ade80; }
+  .reg-pill.med { border-color: #4a3a10; color: #fbbf24; }
+  .reg-pill.high { border-color: #4a1a1a; color: #f87171; }
+
+  /* Keyboard hint */
+  .keyboard-hint { font-size: 10px; color: #444; text-align: center; margin-top: 8px; }
+
+  /* ── Groups ── */
+  .group-colors { --gc0:#7c3aed;--gc1:#0ea5e9;--gc2:#f59e0b;--gc3:#10b981;--gc4:#ef4444;--gc5:#ec4899;--gc6:#06b6d4;--gc7:#a16207; }
+  .sel-bar { position: sticky; top: 0; z-index: 10; background: #1a1a24; border: 1px solid #3d2d6a; border-radius: 12px; padding: 10px 14px; margin: 12px 0 8px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .sel-bar-count { font-size: 13px; font-weight: 700; color: #a78bfa; white-space: nowrap; }
+  .sel-name-input { flex: 1; min-width: 140px; background: #12121a; border: 1px solid #3d2d6a; border-radius: 8px; color: #e0e0f0; font-size: 13px; padding: 6px 10px; outline: none; }
+  .sel-name-input:focus { border-color: #a78bfa; }
+  .sel-name-input::placeholder { color: #444; }
+  .btn-create-group { background: #3d1f8a; border: 1px solid #6d3aed; color: #c4b5fd; font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 8px; cursor: pointer; white-space: nowrap; }
+  .btn-create-group:hover { background: #4d2a9a; }
+  .btn-create-group:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn-sel-clear { background: none; border: none; color: #555; font-size: 12px; cursor: pointer; padding: 4px 6px; }
+  .sel-bar-divider { width: 1px; background: #2d2d3a; align-self: stretch; margin: 0 2px; }
+  .sel-existing-label { font-size: 11px; color: #555; white-space: nowrap; }
+  .btn-add-to-group { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; cursor: pointer; border: 1px solid; white-space: nowrap; transition: opacity 0.15s; }
+  .btn-add-to-group:hover { opacity: 0.8; }
+  .btn-sel-clear:hover { color: #888; }
+
+  .group-section { margin-bottom: 12px; }
+  .group-header { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 10px; cursor: pointer; user-select: none; margin-bottom: 6px; }
+  .group-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .group-name { font-size: 13px; font-weight: 700; flex: 1; }
+  .group-count { font-size: 11px; opacity: 0.6; }
+  .group-chevron { font-size: 10px; opacity: 0.5; transition: transform 0.2s; }
+  .group-chevron.open { transform: rotate(90deg); }
+  .group-body { display: none; }
+  .group-body.open { display: block; }
+  .btn-delete-group { background: none; border: none; color: #4a2a2a; font-size: 11px; cursor: pointer; padding: 2px 6px; border-radius: 6px; }
+  .btn-delete-group:hover { color: #f87171; background: #2a1515; }
+  .btn-rename-group { background: none; border: none; color: #3d2d6a; font-size: 11px; cursor: pointer; padding: 2px 6px; border-radius: 6px; }
+  .btn-rename-group:hover { color: #a78bfa; background: #1e1e2a; }
+
+  .group-badge { display: inline-block; font-size: 9px; font-weight: 700; padding: 1px 7px; border-radius: 10px; margin-left: 6px; vertical-align: middle; opacity: 0.9; }
+  .btn-ungroup { background: none; border: none; font-size: 10px; color: #3a2a5a; cursor: pointer; padding: 2px 5px; border-radius: 5px; }
+  .btn-ungroup:hover { color: #a78bfa; background: #1e1e2a; }
+
+  .list-item-cb { width: 16px; height: 16px; accent-color: #a78bfa; cursor: pointer; flex-shrink: 0; margin-right: 6px; margin-top: 2px; }
+  .list-item.selected { border-color: #5d3a9a !important; background: #1a1428; }
+
+  .ungrouped-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #444; margin: 10px 0 6px 2px; }
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <div style="color:#666;font-size:14px">Loading 574 businesses…</div>
+</div>
+
+<div id="error-msg" style="display:none"></div>
+
+<div id="app" style="display:none">
+  <div id="header">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div class="logo">🔭 Business Scout</div>
+      <div style="font-size:11px;color:#555" id="session-info"></div>
+    </div>
+    <div class="nav">
+      <button class="nav-btn active" onclick="switchTab('queue')" id="tab-queue">Queue <span class="count-badge" id="badge-queue">0</span></button>
+      <button class="nav-btn" onclick="switchTab('approved')" id="tab-approved">✓ Approved <span class="count-badge" id="badge-approved">0</span></button>
+      <button class="nav-btn" onclick="switchTab('denied')" id="tab-denied">✗ Discarded <span class="count-badge" id="badge-denied">0</span></button>
+    </div>
+  </div>
+  <div id="content"></div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════
+//  STATE
+// ══════════════════════════════════════════════
+const STORAGE_KEY = 'biz_scout_v1';
+let allData = [];
+let state = {
+  decisions: [], // [{id, decision:'keep'|'discard', ts}]  newest first
+  groups: [],    // [{id, name, color, memberIds[], createdAt}]
+};
+let selectedIds = new Set(); // session-only selection
+
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+function loadState() {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (raw) {
+    try { state = JSON.parse(raw); } catch(e) {}
+  }
+}
+
+// ══════════════════════════════════════════════
+//  DATA HELPERS
+// ══════════════════════════════════════════════
+function getDecidedIds() {
+  return new Set(state.decisions.map(d => d.id));
+}
+
+function getQueue() {
+  const decided = getDecidedIds();
+  return allData.filter(b => !decided.has(b.id));
+}
+
+function getApproved() {
+  const map = Object.fromEntries(allData.map(b => [b.id, b]));
+  return state.decisions.filter(d => d.decision === 'keep').map(d => ({...map[d.id], ts: d.ts}));
+}
+
+function getDenied() {
+  const map = Object.fromEntries(allData.map(b => [b.id, b]));
+  return state.decisions.filter(d => d.decision === 'discard').map(d => ({...map[d.id], ts: d.ts}));
+}
+
+function currentItem() {
+  const q = getQueue();
+  return q.length > 0 ? q[0] : null;
+}
+
+// ══════════════════════════════════════════════
+//  ACTIONS
+// ══════════════════════════════════════════════
+function decide(decision) {
+  const item = currentItem();
+  if (!item) return;
+  // Remove existing decision for this id if any (shouldn't happen but safety)
+  state.decisions = state.decisions.filter(d => d.id !== item.id);
+  state.decisions.unshift({id: item.id, decision, ts: Date.now()});
+  saveState();
+  renderTab();
+}
+
+function goBack() {
+  if (state.decisions.length === 0) return;
+  state.decisions.shift();
+  saveState();
+  renderTab();
+}
+
+function restore(id) {
+  state.decisions = state.decisions.filter(d => d.id !== id);
+  saveState();
+  renderTab();
+  // Switch to queue
+  switchTab('queue');
+}
+
+function removeFromList(id) {
+  state.decisions = state.decisions.filter(d => d.id !== id);
+  saveState();
+  renderTab();
+}
+
+// ══════════════════════════════════════════════
+//  TABS
+// ══════════════════════════════════════════════
+let currentTab = 'queue';
+
+function switchTab(tab) {
+  currentTab = tab;
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  renderTab();
+}
+
+function renderTab() {
+  updateBadges();
+  if (currentTab === 'queue') renderQueue();
+  else if (currentTab === 'approved') renderList('approved');
+  else if (currentTab === 'denied') renderList('denied');
+}
+
+function updateBadges() {
+  document.getElementById('badge-queue').textContent = getQueue().length;
+  document.getElementById('badge-approved').textContent = getApproved().length;
+  document.getElementById('badge-denied').textContent = getDenied().length;
+  const total = allData.length;
+  const done = getDecidedIds().size;
+  document.getElementById('session-info').textContent = `${done}/${total} reviewed`;
+}
+
+// ══════════════════════════════════════════════
+//  QUEUE RENDER
+// ══════════════════════════════════════════════
+function renderQueue() {
+  const content = document.getElementById('content');
+  const queue = getQueue();
+  const total = allData.length;
+  const done = total - queue.length;
+  const pct = total > 0 ? (done / total * 100).toFixed(1) : 0;
+
+  if (queue.length === 0) {
+    const approved = getApproved().length;
+    content.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">🎉</div>
+        <div class="empty-title">All done!</div>
+        <div class="empty-sub">You reviewed all ${total} businesses.<br>${approved} approved · ${getDenied().length} discarded</div>
+        <br>
+        <button class="btn-export" onclick="exportApproved()" style="font-size:14px;padding:10px 20px">⬇ Export Approved (${approved})</button>
+      </div>`;
+    return;
+  }
+
+  const item = queue[0];
+  const scoreColor = item.non_floor_avg >= 2.5 ? 'score-high' : 'score-mid';
+  const regClass = item.reg_drag <= 1 ? 'low' : item.reg_drag === 2 ? 'med' : 'high';
+  const regLabel = item.reg_drag <= 1 ? '🟢 Low reg risk' : item.reg_drag === 2 ? '🟡 Med reg risk' : '🔴 High reg risk';
+  const canBack = state.decisions.length > 0;
+
+  const metricsHtml = renderMetrics(item.metrics);
+
+  content.innerHTML = `
+    <div class="progress-wrap" style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <div style="flex:1">
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+        <div class="progress-label">${done} of ${total} reviewed · ${queue.length} remaining</div>
+      </div>
+      <button class="btn-back" onclick="goBack()" ${canBack ? '' : 'disabled'}>↩ Back</button>
+    </div>
+
+    <div class="queue-wrap">
+      <button class="btn-side btn-side-discard" onclick="decide('discard')">
+        <span class="btn-side-icon">✗</span>
+        <span>Discard</span>
+        <span style="font-size:10px;color:#6a3030;font-weight:400">← key</span>
+      </button>
+
+      <div class="queue-center">
+        <div class="card">
+          <div class="card-header">
+            <div style="flex:1">
+              <div class="business-name">${esc(item.name)}</div>
+              ${item.auto_approve ? '<div class="auto-badge">⭐ Auto-Approve</div>' : ''}
+              ${item.definition ? `<div style="font-size:12px;color:#666;margin-top:4px">${esc(item.definition)}</div>` : ''}
+            </div>
+            <div class="score-badge">
+              <div class="score-num ${scoreColor}">${item.non_floor_avg}</div>
+              <div class="score-label">Score</div>
+            </div>
+          </div>
+
+          <div class="tags">
+            <span class="tag arch">${esc(item.archetype)}</span>
+            <span class="tag">${esc(item.customer_type)}</span>
+            <span class="tag">${esc(item.revenue_model)}</span>
+            <span class="reg-pill ${regClass}">${regLabel}</span>
+          </div>
+
+          <div class="summary">${esc(item.summary)}</div>
+
+          <div class="details">
+            <div class="reasoning">${esc(item.reasoning)}</div>
+            <div class="metrics-title">Metric Scores</div>
+            <div class="metrics-grid">${metricsHtml}</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn-side btn-side-keep" onclick="decide('keep')">
+        <span class="btn-side-icon">✓</span>
+        <span>Keep</span>
+        <span style="font-size:10px;color:#1a4a28;font-weight:400">→ key</span>
+      </button>
+    </div>`;
+}
+
+function renderMetrics(metrics) {
+  const floorKeys = new Set(['market_headroom','margin_quality','distribution_efficiency']);
+  const skipKey = 'regulatory_liability_drag';
+  let html = '';
+  for (const [key, val] of Object.entries(metrics)) {
+    if (key === skipKey) continue;
+    const s = val.score;
+    const cls = `s${s}`;
+    const label = key.replace(/_/g,' ');
+    const isFloor = floorKeys.has(key);
+    const dots = [0,1,2].map(i => `<div class="dot ${i < s ? `filled ${cls}` : ''}"></div>`).join('');
+    html += `
+      <div class="metric-item ${isFloor ? 'metric-floor' : ''}">
+        <div class="metric-header">
+          <div class="metric-name">${esc(label)}${isFloor ? ' 🔒' : ''}</div>
+          <div class="metric-score ${cls}">${s}/3</div>
+        </div>
+        <div class="metric-dots">${dots}</div>
+        <div class="metric-reason">${esc(val.reason)}</div>
+      </div>`;
+  }
+  return html;
+}
+
+// ══════════════════════════════════════════════
+//  LIST RENDER (Approved / Denied)
+// ══════════════════════════════════════════════
+const GROUP_COLORS = ['#7c3aed','#0ea5e9','#f59e0b','#10b981','#ef4444','#ec4899','#06b6d4','#a16207'];
+function groupColor(idx) { return GROUP_COLORS[idx % GROUP_COLORS.length]; }
+function getGroupForItem(id) { return state.groups.find(g => g.memberIds.includes(id)); }
+
+function renderList(type) {
+  const content = document.getElementById('content');
+  const items = type === 'approved' ? getApproved() : getDenied();
+
+  if (items.length === 0) {
+    const exportBtn = '';
+    content.innerHTML = `
+      <div class="list-header">
+        <div class="list-title">${type === 'approved' ? '✓ Approved' : '✗ Discarded'} — 0 businesses</div>
+      </div>
+      <div class="empty"><div class="empty-icon">${type === 'approved' ? '📋' : '🗑'}</div><div class="empty-title">Nothing here yet</div><div class="empty-sub">Decisions will appear here as you review.</div></div>`;
+    return;
+  }
+
+  const exportBtn = type === 'approved'
+    ? `<button class="btn-export" onclick="exportApproved()">⬇ Export JSON (${items.length})</button>` : '';
+
+  // Selection bar (approved only)
+  const selBar = type === 'approved' ? renderSelBar() : '';
+
+  let bodyHtml = '';
+
+  if (type === 'approved') {
+    // Grouped sections
+    for (let gi = 0; gi < state.groups.length; gi++) {
+      const grp = state.groups[gi];
+      const color = groupColor(gi);
+      const members = items.filter(it => grp.memberIds.includes(it.id));
+      if (members.length === 0) continue;
+      const isOpen = grp._open !== false;
+      bodyHtml += `
+        <div class="group-section" id="grp-${grp.id}">
+          <div class="group-header" style="background:${color}18;border:1px solid ${color}44" onclick="toggleGroup('${grp.id}')">
+            <div class="group-dot" style="background:${color}"></div>
+            <div class="group-name" style="color:${color}">${esc(grp.name)}</div>
+            <div class="group-count" style="color:${color}">${members.length}</div>
+            <button class="btn-rename-group" onclick="event.stopPropagation();renameGroup('${grp.id}')" title="Rename">✏️</button>
+            <button class="btn-delete-group" onclick="event.stopPropagation();deleteGroup('${grp.id}')" title="Delete group">✕</button>
+            <div class="group-chevron ${isOpen ? 'open' : ''}">▶</div>
+          </div>
+          <div class="group-body ${isOpen ? 'open' : ''}">
+            ${members.map(item => renderApprovedItem(item, gi, color, true)).join('')}
+          </div>
+        </div>`;
+    }
+    // Ungrouped
+    const ungrouped = items.filter(it => !getGroupForItem(it.id));
+    if (ungrouped.length > 0) {
+      if (state.groups.length > 0) bodyHtml += `<div class="ungrouped-label">Ungrouped (${ungrouped.length})</div>`;
+      bodyHtml += ungrouped.map(item => renderApprovedItem(item, -1, null, false)).join('');
+    }
+  } else {
+    // Denied list — simple
+    for (const item of items) {
+      const scoreColor = item.non_floor_avg >= 2.5 ? '#fbbf24' : '#a78bfa';
+      const timeStr = new Date(item.ts).toLocaleString();
+      bodyHtml += `
+        <div class="list-item" onclick="toggleListDetail(this)">
+          <div class="list-item-header">
+            <div style="flex:1">
+              <div class="list-item-name">${esc(item.name)} ${item.auto_approve ? '⭐' : ''}</div>
+              <div class="list-item-meta">${esc(item.archetype)} · ${timeStr}</div>
+            </div>
+            <div class="list-item-score" style="color:${scoreColor}">${item.non_floor_avg}</div>
+          </div>
+          <div class="list-item-actions" onclick="event.stopPropagation()">
+            <button class="btn-restore" onclick="restore('${item.id}')">↩ Restore to Queue</button>
+          </div>
+          <div class="list-item-detail">
+            <div style="color:#9090b0;margin-bottom:6px">${esc(item.summary)}</div>
+            <div style="color:#555">${esc(item.reasoning)}</div>
+          </div>
+        </div>`;
+    }
+  }
+
+  content.innerHTML = `
+    <div class="list-header">
+      <div class="list-title">${type === 'approved' ? '✓ Approved' : '✗ Discarded'} — ${items.length} businesses</div>
+      ${exportBtn}
+    </div>
+    ${selBar}
+    <div class="group-colors">${bodyHtml}</div>`;
+}
+
+function renderApprovedItem(item, groupIdx, groupColor, inGroup) {
+  const scoreColor = item.non_floor_avg >= 2.5 ? '#fbbf24' : '#a78bfa';
+  const timeStr = new Date(item.ts).toLocaleString();
+  const isSel = selectedIds.has(item.id);
+  const grp = getGroupForItem(item.id);
+  const groupBadge = grp && !inGroup ? `<span class="group-badge" style="background:${groupColor}22;color:${groupColor};border:1px solid ${groupColor}44">${esc(grp.name)}</span>` : '';
+  const ungroupBtn = inGroup ? `<button class="btn-ungroup" onclick="event.stopPropagation();removeFromGroup('${item.id}')" title="Remove from group">✕ ungroup</button>` : '';
+  return `
+    <div class="list-item${isSel ? ' selected' : ''}" id="li-${item.id}" onclick="toggleListDetail(this)">
+      <div class="list-item-header">
+        <input type="checkbox" class="list-item-cb" ${isSel ? 'checked' : ''}
+          onclick="event.stopPropagation();toggleSelect('${item.id}')" />
+        <div style="flex:1">
+          <div class="list-item-name">${esc(item.name)} ${item.auto_approve ? '⭐' : ''}${groupBadge}</div>
+          <div class="list-item-meta">${esc(item.archetype)} · ${timeStr}</div>
+        </div>
+        <div class="list-item-score" style="color:${scoreColor}">${item.non_floor_avg}</div>
+      </div>
+      <div class="list-item-actions" onclick="event.stopPropagation()">
+        <button class="btn-remove" onclick="removeFromList('${item.id}')">Remove</button>
+        ${ungroupBtn}
+      </div>
+      <div class="list-item-detail">
+        <div style="color:#9090b0;margin-bottom:6px">${esc(item.summary)}</div>
+        <div style="color:#555">${esc(item.reasoning)}</div>
+      </div>
+    </div>`;
+}
+
+function renderSelBar() {
+  const count = selectedIds.size;
+  if (count === 0) {
+    return `<div class="sel-bar" style="opacity:0.45;pointer-events:none">
+      <div class="sel-bar-count">Select items to group them</div>
+    </div>`;
+  }
+  const existingGroupBtns = state.groups.map((g, gi) => {
+    const color = groupColor(gi);
+    return `<button class="btn-add-to-group" style="background:${color}18;color:${color};border-color:${color}44"
+      onclick="addToGroup('${g.id}')">${esc(g.name)}</button>`;
+  }).join('');
+
+  const existingSection = state.groups.length > 0 ? `
+    <div class="sel-bar-divider"></div>
+    <div class="sel-existing-label">Add to:</div>
+    ${existingGroupBtns}
+    <div class="sel-bar-divider"></div>` : '';
+
+  return `<div class="sel-bar">
+    <div class="sel-bar-count">${count} selected</div>
+    ${existingSection}
+    <input class="sel-name-input" id="group-name-input" type="text" placeholder="New group name…" maxlength="40"
+      onkeydown="if(event.key==='Enter')createGroup()" />
+    <button class="btn-create-group" onclick="createGroup()">＋ New Group</button>
+    <button class="btn-sel-clear" onclick="clearSelection()">✕</button>
+  </div>`;
+}
+
+// ── Group actions ──
+function toggleSelect(id) {
+  if (selectedIds.has(id)) selectedIds.delete(id);
+  else selectedIds.add(id);
+  renderTab();
+}
+
+function clearSelection() {
+  selectedIds.clear();
+  renderTab();
+}
+
+function createGroup() {
+  const input = document.getElementById('group-name-input');
+  const name = input ? input.value.trim() : '';
+  if (!name || selectedIds.size === 0) return;
+  // Remove selected items from any existing groups first
+  const ids = [...selectedIds];
+  for (const g of state.groups) g.memberIds = g.memberIds.filter(id => !ids.includes(id));
+  // Find or skip existing group with same name
+  const existing = state.groups.find(g => g.name.toLowerCase() === name.toLowerCase());
+  if (existing) {
+    existing.memberIds = [...new Set([...existing.memberIds, ...ids])];
+  } else {
+    state.groups.push({ id: 'g_' + Date.now(), name, memberIds: ids, createdAt: Date.now(), _open: true });
+  }
+  selectedIds.clear();
+  saveState();
+  renderTab();
+}
+
+function addToGroup(gid) {
+  if (selectedIds.size === 0) return;
+  const ids = [...selectedIds];
+  // Remove selected items from any other groups first
+  for (const g of state.groups) g.memberIds = g.memberIds.filter(id => !ids.includes(id));
+  const grp = state.groups.find(g => g.id === gid);
+  if (!grp) return;
+  grp.memberIds = [...new Set([...grp.memberIds, ...ids])];
+  selectedIds.clear();
+  saveState();
+  renderTab();
+}
+
+function deleteGroup(gid) {
+  state.groups = state.groups.filter(g => g.id !== gid);
+  saveState();
+  renderTab();
+}
+
+function renameGroup(gid) {
+  const grp = state.groups.find(g => g.id === gid);
+  if (!grp) return;
+  const newName = window.prompt('Rename group:', grp.name);
+  if (newName && newName.trim()) { grp.name = newName.trim(); saveState(); renderTab(); }
+}
+
+function removeFromGroup(itemId) {
+  for (const g of state.groups) g.memberIds = g.memberIds.filter(id => id !== itemId);
+  saveState();
+  renderTab();
+}
+
+function toggleGroup(gid) {
+  const grp = state.groups.find(g => g.id === gid);
+  if (grp) { grp._open = grp._open === false ? true : false; renderTab(); }
+}
+
+// ══════════════════════════════════════════════
+//  HELPERS
+// ══════════════════════════════════════════════
+function toggleListDetail(el) {
+  el.querySelector('.list-item-detail').classList.toggle('open');
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function exportApproved() {
+  const approved = getApproved();
+  const withGroups = approved.map(item => {
+    const grp = getGroupForItem(item.id);
+    return {...item, group: grp ? grp.name : null};
+  });
+  const blob = new Blob([JSON.stringify(withGroups, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `approved_businesses_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+}
+
+// ══════════════════════════════════════════════
+//  KEYBOARD
+// ══════════════════════════════════════════════
+document.addEventListener('keydown', e => {
+  if (currentTab !== 'queue') return;
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'ArrowRight' || e.key === 'k') decide('keep');
+  else if (e.key === 'ArrowLeft' || e.key === 'd') decide('discard');
+  else if (e.key === 'ArrowUp' || e.key === 'b') goBack();
+
+});
+
+// ══════════════════════════════════════════════
+//  INIT
+// ══════════════════════════════════════════════
+async function init() {
+  loadState();
+  try {
+    const res = await fetch('./shortlist.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    allData = await res.json();
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error-msg').style.display = 'block';
+    document.getElementById('error-msg').innerHTML = `
+      <div style="font-size:20px;margin-bottom:16px">⚠️ Open via local server</div>
+      <div style="color:#aaa;font-size:13px;line-height:2">
+        In <strong>Terminal</strong>, run:<br>
+        <code style="display:block;background:#1e1e2a;padding:10px 14px;border-radius:8px;margin:8px 0;color:#a78bfa;font-size:12px">python3 -m http.server 8080</code>
+        from your <strong>Business Discovery</strong> folder, then open:<br>
+        <a href="http://localhost:8080/business_scout.html" style="color:#a78bfa;font-size:14px">→ localhost:8080/business_scout.html</a>
+      </div>`;
+    return;
+  }
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('app').style.display = 'flex';
+  renderTab();
+}
+
+init();
+</script>
+
+
+
+
+
+</body>
+</html>
